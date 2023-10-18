@@ -1,0 +1,148 @@
+
+    .btndiv{
+        width: 100%;
+        justify-content: start;
+    }
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+        padding: 0px 120px;
+justify-content: space-between;
+align-items: flex-start;  
+
+}
+
+    .right-hero{
+        width: 50%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .hero-text{
+        color: #1E1E1E;
+font-family: Inter;
+font-size: 96px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -5.76px;
+
+    }
+
+
+
+
+    .hero-img{
+        width: 285px;
+height: 500px;
+transform: rotate(-30deg);
+
+    }
+
+    .left-hero{
+        width: 50%;
+        height: 100vh;
+        align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+    }
+
+
+    .btn1{
+        display: flex;
+padding: 3px;
+align-items: flex-start;
+border-radius: 35px;
+background: #FFF;
+color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: 1px solid black;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+    .btn2{
+        display: flex;
+padding: 10px;
+align-items: flex-start;
+border-radius: 35px;
+background: #FFF;
+color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 50px;
+border: 1px solid black;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+
+
+    }
+
+
+    @media only screen and (max-width: 600px) {
+
+        .left-hero{
+            width: 100%;
+            height: auto;
+        }
+
+        .right-hero{
+            width: 100%;
+            height: auto;
+        }
+
+        .hero-text{
+        color: #1E1E1E;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -5.76px;
+text-align: center;
+width: 248px;
+height: 144px;
+margin-top: 500px;
+margin: auto;
+
+    }
+
+    .hero-img{
+        width: 198px;
+    height: 230px;
+    transform: rotate(-30deg);
+    object-fit: fill;
+    }
+
+    .herotextdiv{
+        margin-top: 50px;
+    }
+
+    .btn1 {
+        font-size: 14px;
+    }
+
+    .btn2 {
+        font-size: 14px;
+        margin-left: 20px;
+
+    }
+    }

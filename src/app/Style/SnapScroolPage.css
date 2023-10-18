@@ -1,0 +1,132 @@
+
+html{
+    scroll-snap-type: y mandatory;
+  }  
+    
+  section{
+    scroll-snap-align: start;
+    scroll-snap-stop: end;
+
+  }
+        .card{
+            height: 95vh;
+        border: 1px solid black;
+        overflow: hidden;
+        width: 98%;
+        text-align: center;
+        box-shadow: 0 4px 5px -1px ;
+        margin-top: 10px;
+        background: white;
+        /* position: sticky; */
+        top: 10px;
+        
+        }
+
+
+        .card-1{
+          top: -279vh;
+          bottom: 0vh;
+                    z-index: 1;
+                    /* width: 50%; */
+                    height: 100vh;
+                    border: none;
+                    width: 98vw;
+                    background-image: url("/herobg.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                 
+        }
+
+        .card-2{
+            top: -320vh;
+            bottom:8vh;
+            width: 98vw;
+
+            z-index: -1;
+            /* width: 60%; */
+             height: 100vh;
+             background-image: url("/Servicesf.png");
+             background-repeat: no-repeat;
+             background-size: cover;
+
+
+
+        }
+        .card-3{
+            top: -300vh;
+            bottom: 7vh;
+            z-index: -2;
+            /* width: 65%; */
+            height: 100vh;
+            width: 98vw;
+        
+        }
+
+        .card-4{
+            /* background-color: rgb(41, 131, 209); */
+            top: -220vh;
+            bottom: 6vh;
+            z-index: -3;
+            /* width: 70%; */
+            height: 100vh;
+            
+            width: 98vw;
+
+            background-image: url("/Portfoliobgf.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .card-5{
+            top: -240vh;
+            bottom: 5vh;
+            z-index: -4;
+            height: 100vh;
+            width: 98vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("/Milestonesf.png");
+
+            background-size: cover;
+            background-repeat: no-repeat;
+  
+        
+        }
+
+        .card-6{
+            background-color: black;
+            top: -260vh;
+            bottom: 4vh;
+            z-index: -5;
+            height: 100vh;
+            width: 98vw;
+        }
+        .card-7{
+            background-color: yellow;
+            top: -280vh;
+            bottom: 3vh;
+            z-index: -7;
+            height: 100vh;
+
+        }
+
+        .card-8{
+            background-color: pink;
+            top: -300vh;
+            bottom: 2vh;
+            z-index: -8;
+            height: 100vh;
+
+
+        }
+
+        .CounerSection{
+
+              
+          background-image: url("/Our Clientsf.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
