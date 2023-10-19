@@ -14,7 +14,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/ServiceCard1ff.png",
+      backgroundUrl: "/serviceCard1f.png"
     },
 
     {
@@ -26,7 +26,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/ServiceCard2f.png",
+      backgroundUrl: "/serviceCard2f.png"
     },
     {
       name: "Digital Marketing",
@@ -37,7 +37,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/ServiceCard3f.png",
+      backgroundUrl: "/serviceCard3f.png"
     },
     {
       name: "Cloud / Database Management",
@@ -48,9 +48,8 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/ServiceCard4f.png",
-    },
-    {
+      backgroundUrl: "/serviceCard4f.png"
+    },{
       name: "Software Development",
       description: `We offer a wide range of software development services, including web development, mobile app development, software engineering, data science, and machine learning. We also offer a variety of managed services, so you can focus on your business while we take care of your software needs.`,
       spotify: {
@@ -59,7 +58,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/ServiceCard5f.png",
+      backgroundUrl: "/serviceCard5f.png"
     },
     {
       name: "Branding",
@@ -70,7 +69,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/ServiceCard6f.png",
+      backgroundUrl: "/serviceCard6f.png"
     },
     {
       name: "Google Services",
@@ -78,13 +77,8 @@ const OurServiceAccordion = () => {
       Google Merchant Center: Google Merchant Center is a free service that allows businesses to upload their product catalogs to Google. 
       Google Analytics: Google Analytics is a web analytics service that helps businesses track and measure website traffic.
       Google Maps: Google Maps is a mapping service that can help businesses to find and reach their customers.`,
-      spotify: {
-        profileUrl:
-          "https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m?si=HidnJ9jEQ5aK-dKZEZWdLw",
-        embedUrl:
-          "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
-      },
-      backgroundUrl: "/ServiceCard7.png",
+
+      backgroundUrl: "/serviceCard7f.png"
     },
 
     // Add more artist data here
@@ -111,11 +105,12 @@ const OurServiceAccordion = () => {
       <div className=" w-[80%] mt-28 mr-5 ">
         <ul className="h-[65%] mt-28 mb-20 Serviceul">
           {artists.map((artist, i) => (
-            <li
+            <li 
+              
               key={i}
               style={{
                 backgroundImage: `url(${artist.backgroundUrl});     height: 550px;
-            background-position: left;
+            background-position: center;
 `,
               }}
               role="button"

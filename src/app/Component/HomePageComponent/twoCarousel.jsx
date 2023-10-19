@@ -93,7 +93,7 @@ items: 2,
 return (
 <div className="row no-gutters  pb-16 mt-24 flex">
 <div
-className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12  pb-2 w-[72%] ml-14"
+className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12  pb-2 w-[80%] ml-[-38px]"
 id="owl-carousel-products"
 >
 <h3 className="text-center">
