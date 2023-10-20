@@ -41,7 +41,17 @@ padding-left: 8px;
   transform: rotate(-90deg);
 
   width: 600px;
-  margin-top: 90%;
+  /* margin-top: 60%; */
+
+  
+}
+
+
+.ServiceTxtDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -76,7 +86,7 @@ padding-left: 8px;
   }
 }
 
-.Serviceul > li {
+.Serviceul li {
   flex: 1;
   display: flex;
   align-items: stretch;
@@ -88,7 +98,7 @@ padding-left: 8px;
   background-repeat: no-repeat;
   background-position: top center;
   overflow: hidden;
-  /* border-radius: 15px; */
+  border-radius: 5px;
 
   &:before {
     content: "";
@@ -220,4 +230,86 @@ padding-left: 8px;
   .active & {
     pointer-events: all;
   }
+}
+
+
+@media only screen and (max-width: 780px) {
+
+.serviceAccMain{
+  flex-direction: column;
+}
+
+
+.Servicetxt{
+  transform: none;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 45px;
+  letter-spacing: -2.4px;}
+
+.ServiceCardDiv{
+  margin-top: 5px;
+}
+
+.ServiceTxtDiv{
+  width: auto;
+}
+
+.ServiceCardDiv {
+  width: auto;
+  margin: 5px;
+}
+
+.bio{
+  margin-bottom: 0;
+  width: auto;
+  justify-content: center;
+    align-items: center;
+}
+
+.Serviceul{
+  height: 432px;
+
+}
+
+
+.AccordianP{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: auto;
+}
+
+.AccordianH2{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.92px;
+}
+
+.Serviceul li {
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.cardCloseService{
+  font-size: 20px;
+
+}
 }

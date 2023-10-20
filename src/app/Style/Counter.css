@@ -58,3 +58,38 @@ letter-spacing: -5.76px;
 margin-top: 20%;
 
 }
+
+
+@media only screen and (max-width: 780px) {
+
+.MilestoneBody {
+    flex-direction: column;
+}
+
+.milestoneTxt{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -2.4px;
+margin-top: 0;
+}
+
+
+.Milestonediv{
+    transform: none;
+    margin-left: 0;
+}
+
+
+.CounterTitile{
+    font-size: 25px;
+}
+
+.counterNumber{
+    font-size: 60px;
+}
+}

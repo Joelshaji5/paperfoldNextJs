@@ -14,7 +14,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/serviceCard1f.png"
+      backgroundUrl: "/serviceCard1final.png"
     },
 
     {
@@ -98,12 +98,12 @@ const OurServiceAccordion = () => {
 
   return (
     <div className="serviceAccMain flex">
-      <div className="w-[26%]">
+      <div className="w-[26%] ServiceTxtDiv">
         <h1 className="Servicetxt">Our Services</h1>
       </div>
 
-      <div className=" w-[80%] mt-28 mr-5 ">
-        <ul className="h-[65%] mt-28 mb-20 Serviceul">
+      <div className=" w-[82%] mt-28 ServiceCardDiv mr-5 ">
+        <ul className="h-[65%]  mb-20 Serviceul">
           {artists.map((artist, i) => (
             <li 
               

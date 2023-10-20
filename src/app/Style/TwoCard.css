@@ -113,3 +113,38 @@ margin-top: -180px;
   .owl-carousel.owl-loaded{
     display: inline !important;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .Ourworkdiv{
+      flex-direction:column-reverse;
+      margin-top: 15px;
+    }
+
+    .WorkTxt{
+      margin-top: 10px;
+      transform: none;
+      font-family: Inter;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: -0.06em;
+      text-align: center;
+          }
+
+          .cardCarouselWork{
+            width: 100%;
+            margin: auto;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 50px;
+
+          }
+
+          .WorkImg{
+            height: 416px;
+
+          }
+  }
+
+ 
