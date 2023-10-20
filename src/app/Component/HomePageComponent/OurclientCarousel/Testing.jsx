@@ -4,11 +4,17 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import "../../../Style/Testing.css"
 
+
+
+
+
+
+
 const Testing = () => {
   const [settings] = useState({
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,

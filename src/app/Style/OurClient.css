@@ -9,13 +9,15 @@
 
 /* Animation */
 @keyframes scroll {
-  100% {
+  0% {
     transform: translateX(0);
   }
-  0% {
+  100% {
     transform: translateX(calc(-250px * 7));
   }
 }
+
+
 
 
 
@@ -57,10 +59,38 @@
 }
 
 
+
+
 .slide {
   height: 100px;
   width: 250px;
   display: flex;
   align-items: center;
   margin-left: 80px;
+}
+
+.ShowMobile{
+  display: none;
+}
+
+
+@media only screen and (max-width: 780px) {
+
+
+.ShowMobile{
+  display: block;
+}
+
+.ourclienttxt{
+  color: #1E1E1E;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -2.4px;
+}
+
+
 }

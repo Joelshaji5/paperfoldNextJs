@@ -14,7 +14,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/serviceCard1final.png"
+      backgroundUrl: "/ServiceC1.png"
     },
 
     {
@@ -26,7 +26,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/serviceCard2f.png"
+      backgroundUrl: "/ServiceC2.png"
     },
     {
       name: "Digital Marketing",
@@ -37,7 +37,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/serviceCard3f.png"
+      backgroundUrl: "/ServiceC3.png"
     },
     {
       name: "Cloud / Database Management",
@@ -48,7 +48,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/serviceCard4f.png"
+      backgroundUrl: "/ServiceC4.png"
     },{
       name: "Software Development",
       description: `We offer a wide range of software development services, including web development, mobile app development, software engineering, data science, and machine learning. We also offer a variety of managed services, so you can focus on your business while we take care of your software needs.`,
@@ -58,7 +58,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/serviceCard5f.png"
+      backgroundUrl: "/ServiceC5.png"
     },
     {
       name: "Branding",
@@ -69,7 +69,7 @@ const OurServiceAccordion = () => {
         embedUrl:
           "https://open.spotify.com/embed/artist/205i7E8fNVfojowcQSfK9m?utm_source=generator",
       },
-      backgroundUrl: "/serviceCard6f.png"
+      backgroundUrl: "/ServiceC6.png"
     },
     {
       name: "Google Services",
@@ -78,7 +78,7 @@ const OurServiceAccordion = () => {
       Google Analytics: Google Analytics is a web analytics service that helps businesses track and measure website traffic.
       Google Maps: Google Maps is a mapping service that can help businesses to find and reach their customers.`,
 
-      backgroundUrl: "/serviceCard7f.png"
+      backgroundUrl: "/ServiceC7.png"
     },
 
     // Add more artist data here

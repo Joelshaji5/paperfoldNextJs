@@ -15,8 +15,8 @@ function Counter() {
         </div>
 
    
-        <div className="flex justify-center ">
-      <div className="">
+        <div className="flex justify-center milestoneMainCounterDiv">
+      <div >
         <ScrollTrigger
           className="ml-4 mr-10"
           onEnter={() => {
@@ -52,7 +52,7 @@ function Counter() {
           }}
         >
           {" "}
-          <div>
+          <div className="mbDiv">
             <div className="mt-5 -ml-[14] CounterTitile">
                 <div className="counterNumber">
               {counterUp && (
@@ -66,7 +66,7 @@ function Counter() {
         </ScrollTrigger>
       </div>
 
-      <div className="ml-16">
+      <div className="ml-16 MilestoneDiv2">
         <ScrollTrigger
           onEnter={() => {
             setCounterUp(true);
