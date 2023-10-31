@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import "../../Style/NavBar.css"
 
 const StickyNavbar = () => {
   const [isSticky, setIsSticky] = useState(false);

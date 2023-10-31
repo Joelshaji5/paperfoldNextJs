@@ -11,3 +11,12 @@ box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.50);
 .navBtn:hover{
     scale: 1.1;
 }
+
+
+@media only screen and (max-width: 780px) {
+
+.navBtn{
+display: none;
+}
+
+}
