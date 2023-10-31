@@ -1,0 +1,13 @@
+.navBtn{
+    width: 135px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 25px;
+background: linear-gradient(180deg, #FFF 0%, #C9C9C9 100%);
+box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.navBtn:hover{
+    scale: 1.1;
+}

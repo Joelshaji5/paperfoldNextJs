@@ -59,7 +59,7 @@ flex-direction: column;
     .btn1{
         display: flex;
 padding: 3px;
-align-items: flex-start;
+align-items: center;
 border-radius: 35px;
 background: #FFF;
 color: #000;
@@ -72,6 +72,12 @@ border: 1px solid black;
 align-items: center;
 padding-left: 10px;
 padding-right: 10px;
+
+width: 145px;
+height: 45px;
+flex-shrink: 0;
+justify-content: center;
+
 
 }
 
@@ -93,9 +99,25 @@ align-items: center;
 padding-left: 10px;
 padding-right: 10px;
 
+width: 145px;
+height: 45px;
+flex-shrink: 0;
+justify-content: center;
+
 
     }
 
+    .btn2:hover{
+        background: linear-gradient(180deg, #FFF 0%, #C9C9C9 100%);
+
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.50);    }
+
+
+        .btn1:hover{
+            background: linear-gradient(180deg, #FFF 0%, #C9C9C9 100%);
+    
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.50);    }
+    
 
     @media only screen and (max-width: 600px) {
 

@@ -4,13 +4,16 @@ import Counter from "../Component/HomePageComponent/Counter";
 import OurClient from "../Component/HomePageComponent/Ourclient";
 import Slider from "../Component/HomePageComponent/twoCarousel";
 import OurServiceAcordian from "./HomePageComponent/OurServiceAcordian";
-import Testing from "./HomePageComponent/OurclientCarousel/Testing";
+import Testing from "./HomePageComponent/Testing";
+import NavBars from "./NavBar/Navbar";
 import "../Style/SnapScroolPage.css";
 function SnapScrollPage() {
   return (
     <div>
       <div class="card-scroll">
         <section class="card card-1">
+          {/* <NavBars /> */}
+          <Testing />
           <Hero />
 
 

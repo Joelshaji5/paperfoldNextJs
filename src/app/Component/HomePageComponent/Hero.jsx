@@ -14,7 +14,7 @@ function Hero() {
             You Dominate.
           </h2>
           <div className="flex mt-7 btndiv">
-            <button className="btn1">Contact Us</button>
+            <button className="btn1">Contact</button>
             <button className="btn2">Services</button>
           </div>
         </div>

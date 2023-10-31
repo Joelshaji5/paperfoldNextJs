@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import "./globals.css";
 import { Inter, Montserrat } from "next/font/google";
+import StickyNavbar from "../app/Component/NavBar/Navbar"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-  
+      {/* <StickyNavbar /> */}
       {/* Header/ Navbar */}
       <body className={inter.className}>{children}</body>
       {/* Footer */}
