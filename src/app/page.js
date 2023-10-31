@@ -8,8 +8,8 @@ export default function Home() {
     
     
     <div>
-      {/* < SnapScrollPage/> */}
-      <Priceing />
+      < SnapScrollPage/>
+      {/* <Priceing /> */}
 
     </div>
     )

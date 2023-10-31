@@ -30,9 +30,9 @@ const StickyNavbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/services">Services</a>
-        <a href="/contact">Contact</a>
+        <a href="/">About</a>
+        <a href="/">Services</a>
+        <a href="/">Contact</a>
       </div>
     </nav>
   );
