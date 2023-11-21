@@ -1,0 +1,90 @@
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 554px; 
+    /* background-color: #FFFFFF; */
+    margin-top: 35px;
+
+  }
+
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 554px; 
+    /* background-color: #FFFFFF; */
+    margin-top: 35px;
+
+  }
+  
+  .rowform:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 1199px;
+    
+  }
+
+  .rowform{
+    border: 1px solid black;
+    margin-bottom:63px ;
+    width: 1199px;
+    background-color: white;
+    margin: auto;
+    border-radius: 18px;
+  }
+
+  .firstnamebox{
+    background: transparent;
+  }
+
+  form > input{
+    width: 432px;
+    border-bottom: 1px solid #000;
+    margin-top: 10px;
+    margin-left: 72px;
+    
+
+  }
+
+
+  form{
+    margin-top: 55px ;
+
+  }
+
+  .formPara{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.92px;
+  }
+
+  .formTitle{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 96px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -5.76px;
+margin-top: 84px;
+  }
+
+  .formMainDiv{
+    background-image: url("/FormPage.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.textareaform{
+    border-radius: 14px;
+    margin-top: 55px ;
+    border: 1px solid #1E1E1E;}

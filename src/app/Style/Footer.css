@@ -1,0 +1,25 @@
+.SubBtn{
+    width: 117px;
+height: 41px;
+border-radius: 10px;
+background: #94C800;
+color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.FooterDiv{
+    border-radius: 25px 25px 0px 0px;
+    /* background: #1E1E1E; */
+    height: 371px;
+    flex-shrink: 0;
+}
+
+
+.footer1{
+    margin-top: 50px;
+}

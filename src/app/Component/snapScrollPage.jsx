@@ -6,6 +6,8 @@ import Slider from "../Component/HomePageComponent/twoCarousel";
 import OurServiceAcordian from "./HomePageComponent/OurServiceAcordian";
 import Testing from "./HomePageComponent/Testing";
 import NavBars from "./NavBar/Navbar";
+import Testimonial from "./HomePageComponent/Testimonial";
+
 import "../Style/SnapScroolPage.css";
 function SnapScrollPage() {
   return (
@@ -38,6 +40,13 @@ function SnapScrollPage() {
 
 
         </section>
+
+        <section class="card card-6">
+        <Testimonial />
+
+
+        </section>
+      
       </div>
     </div>
   );

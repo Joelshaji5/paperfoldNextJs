@@ -19,7 +19,7 @@ text-align: start;
 .cardCloseService{
   color: #FFF;
 text-align: center;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);   */
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
@@ -71,7 +71,7 @@ padding-left: 8px;
 .Serviceul {
   display: flex;
   min-height: 450px;
-  height: 650px;
+  /* height: 650px; */
   margin-top: 200px;
   margin: 0;
   padding: 0;
@@ -94,7 +94,7 @@ padding-left: 8px;
   transition: all 0.35s ease;
   cursor: pointer;
   position: relative;
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: top center;
   overflow: hidden;

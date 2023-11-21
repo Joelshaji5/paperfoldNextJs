@@ -102,14 +102,14 @@ const OurServiceAccordion = () => {
         <h1 className="Servicetxt">Our Services</h1>
       </div>
 
-      <div className=" w-[82%] mt-28 ServiceCardDiv mr-5 ">
+      <div className=" w-[82%]  ServiceCardDiv mr-5 ">
         <ul className="h-[65%]  mb-20 Serviceul">
           {artists.map((artist, i) => (
             <li 
               
               key={i}
               style={{
-                backgroundImage: `url(${artist.backgroundUrl});     height: 550px;
+                backgroundImage: `url(${artist.backgroundUrl});    
             background-position: center;
 `,
               }}
