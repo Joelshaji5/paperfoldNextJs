@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../../Style/Priceing.css";
 import ServiceList from "./Servicelist";
 import priceinglist from "../Constent/Priceinglist.json"
-import { render } from "react-dom";
 
 
 
