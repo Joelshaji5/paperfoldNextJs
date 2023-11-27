@@ -16,7 +16,7 @@ function Testimonial() {
             <img
               className='logoTestimonial'
               src='/dont-trust1.png'
-              onClick={() => setShowData(1)}
+              onMouseEnter={() => setShowData(1)}
             />
             <div className={showData === 1 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
               <h1>John Doe, Orgniztn.</h1>
@@ -32,7 +32,7 @@ function Testimonial() {
             <img
               className='logoTestimonial'
               src='/dont-trust2.png'
-              onClick={() => setShowData(2)}
+              onMouseEnter={() => setShowData(2)}
             />
             <div className={showData === 2 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
               <h1>John Doe, Orgniztn.</h1>
@@ -48,7 +48,7 @@ function Testimonial() {
             <img
               className='logoTestimonial'
               src='/dont-trust3.png'
-              onClick={() => setShowData(3)}
+              onMouseEnter={() => setShowData(3)}
             />
             <div className={showData === 3 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
               <h1>John Doe, Orgniztn.</h1>
@@ -64,7 +64,7 @@ function Testimonial() {
             <img
               className='logoTestimonial'
               src='/dont-trust4.png'
-              onClick={() => setShowData(4)}
+              onMouseEnter={() => setShowData(4)}
             />
             <div className={showData === 4 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
               <h1>John Doe, Orgniztn.</h1>

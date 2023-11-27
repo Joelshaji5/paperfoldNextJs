@@ -97,13 +97,13 @@ const OurServiceAccordion = () => {
   };
 
   return (
-    <div className="serviceAccMain flex">
+    <div className="serviceAccMain flex justify-around">
       <div className="w-[26%] ServiceTxtDiv">
         <h1 className="Servicetxt">Our Services</h1>
       </div>
 
-      <div className=" w-[82%]  ServiceCardDiv mr-5 ">
-        <ul className="h-[65%]  mb-20 Serviceul">
+      <div className=" w-[1150px]     h-[523px] ServiceCardDiv mr-5 ">
+        <ul className="h-[99%]  mb-20 Serviceul">
           {artists.map((artist, i) => (
             <li 
               
@@ -114,17 +114,15 @@ const OurServiceAccordion = () => {
 `,
               }}
               role="button"
-              className={active === i ? "active" : ""}
+              className={active === i ? "activeService" : ""}
               onClick={() => setActive(i)}
             >
               <h3 className="cardCloseService">{artist.name}</h3>
-              <div className="section-content">
-                <div className="inner">
-                  <div className="bio">
+                <div className="inner section-content">
+                  <div className="bio gap-5">
                     <h2 className="AccordianH2">{artist.name}</h2>
                     <p className="AccordianP">{artist.description}</p>
                   </div>
-                </div>
               </div>
             </li>
           ))}

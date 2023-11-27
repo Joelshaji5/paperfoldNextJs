@@ -5,6 +5,13 @@
 //   font-size: 16px;
 // } */
 
+
+
+.activeService{
+  /* border: 1px solid black; */
+  width: 500px;
+}
+
 .AccordianP{
   color: #FFF;
 font-family: Montserrat;
@@ -56,14 +63,22 @@ padding-left: 8px;
 
 
 .bio {
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-rows: min-content;
-  grid-gap: 24px;
+  /* display: grid; */
+  /* grid-auto-flow: row; */
+  /* grid-template-rows: min-content; */
+  /* grid-gap: 24px; */
   color: #FFF;
-  width: 480px;
-  margin-bottom: 25%;
+  /* width: 480px; */
+  /* margin-bottom: 25%; */
 
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+
+  /* border: 1px solid red; */
 
 
 }
@@ -88,8 +103,8 @@ padding-left: 8px;
 
 .Serviceul li {
   flex: 1;
-  display: flex;
-  align-items: stretch;
+  /* display: flex;
+  align-items: stretch; */
   cursor: pointer;
   transition: all 0.35s ease;
   cursor: pointer;
@@ -99,6 +114,18 @@ padding-left: 8px;
   background-position: top center;
   overflow: hidden;
   border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+
+  /* border: 1px solid black; */
+  width: 600px;
+
+
+
 
   &:before {
     content: "";
@@ -110,7 +137,7 @@ padding-left: 8px;
     height: 100%;
   }
 
-  &.active {
+  &.activeService {
     flex: 6;
     cursor: default;
 
@@ -132,6 +159,7 @@ padding-left: 8px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: -2.88px;
+  width: 450px;
 
   @media only screen and (min-width: 768px) {
     font-size: 48px;
@@ -163,7 +191,7 @@ padding-left: 8px;
     transform: translate(-20px, -50%) rotate(-90deg);
   }
 
-  .active & {
+  .activeService & {
     opacity: 0;
     top: 200%;
   }
@@ -174,10 +202,14 @@ padding-left: 8px;
   z-index: 30;
   opacity: 0;
   align-self: flex-end;
-  width: 100%;
+
+
+  width: fit-content;
+
+  /* width: 100%; */
   transition: all 0.35s 0.1s ease-out;
 
-  .active & {
+  .activeService & {
     opacity: 1;
   }
 
@@ -201,6 +233,10 @@ padding-left: 8px;
     left: 0;
     bottom: 0;
     padding: 20px;
+
+
+
+
     opacity: 0;
     transition: opacity 0.25s ease-out;
 
@@ -218,7 +254,7 @@ padding-left: 8px;
       padding: 40px;
     }
 
-    .active & {
+    .activeService & {
       opacity: 1;
     }
   }
@@ -227,7 +263,7 @@ padding-left: 8px;
 .artist-profile-link {
   pointer-events: none;
 
-  .active & {
+  .activeService & {
     pointer-events: all;
   }
 }
@@ -287,7 +323,8 @@ padding-left: 8px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: auto;
+  width: 90%;
+
 }
 
 .AccordianH2{
@@ -299,6 +336,8 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: -1.92px;
+width: 90%;
+
 }
 
 .Serviceul li {
@@ -307,6 +346,7 @@ letter-spacing: -1.92px;
   align-items: center;
   display: flex;
   justify-content: center;
+  
 
 }
 .cardCloseService{
