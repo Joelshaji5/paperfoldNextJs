@@ -87,3 +87,71 @@ height: 41px;
     height: 250px;
 
 }
+
+
+.logohidepc{
+    display: none;
+}
+
+.Sociallogomb{
+display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+.OtherLinkf{
+    display: none;
+}
+.footer1{
+    margin-top: 10px;
+    margin: auto;
+}
+
+
+.Sociallogo{
+    display: none;
+}
+
+.logohidemb{
+    display: none;
+}
+
+
+.ServicefooterLine{
+    border-left: none;
+    height: 250px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 19px;
+    padding-bottom: 40px;
+
+}
+
+.FooterDiv{
+    height: auto;
+}
+
+
+.ServicefooterLine{
+    height: auto;
+}
+
+
+.logohidepc{
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.Sociallogomb{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+ 
+}
+}

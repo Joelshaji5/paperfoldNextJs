@@ -4,17 +4,18 @@ import "../../../Style/Footer.css"
 
 function Footer() {
   return (
-    <div className='FooterDiv flex justify-center flex-wrap' >
+    <div className='FooterDiv'>
+    <div className='flex justify-center flex-wrap' >
 
     <div className='footer1 '>
-        <img className='mt' src='/PaperfoldWhiteLogo.png' ></img>
+        <img className='logohidemb' src='/PaperfoldWhiteLogo.png' ></img>
         
         <div className='mt-10'>
         <input type='text' id='Newsletter' name='Newsletter' placeholder='Subscribe to our newsletter* ' className='SubNewsletter pl-4' />
         <button className='SubBtn ml-2'>Subscribe</button>
         </div>
 
-        <div className='flex w-[117px] justify-between ml-4 mt-9 flex-wrap'>
+        <div className='flex w-[117px] justify-between ml-4 mt-9 flex-wrap Sociallogo'>
             <img src='twitter.png' />
             <img src='facebook.png' />
 
@@ -29,7 +30,7 @@ function Footer() {
 
     <div className='flex flex-wrap'>
 
-    <div className='ml-28 mt-[60px] pl-[70px] ServicefooterLine'>
+    <div className='ml-28 -0 mt-[60px] pl-[70px] ServicefooterLine'>
       <h1 className='ServiceFooter  mb-3 '>Services</h1>
       <ul className='ulService'>
         <li>Digital Strategy & Design</li>
@@ -42,7 +43,7 @@ function Footer() {
       </ul>
     </div>
 
-    <div>
+    <div className='OtherLinkf'>
       <h1 className='OtherLinkFooter mt-[60px] mb-3'>Other Links</h1>
       <ul className='ulOtherLinkFooter'>
       <li>Sitemap</li>
@@ -54,7 +55,25 @@ function Footer() {
 
     </div>
 
+    
 
+
+    </div>
+    <div>
+    <img className='logohidepc' src='/PaperfoldWhiteLogo.png' ></img>
+    
+    </div>
+    <div className='flex w-[117px] justify-between ml-4 mt-9 flex-wrap Sociallogomb'>
+            <img src='twitter.png' />
+            <img src='facebook.png' />
+
+            <img src='instagram.png' />
+
+
+            <a href='https://www.linkedin.com/company/paperfold-sequential-pvt-ltd/mycompany/'>
+            <img  src='linkedinlogo.png'  />
+            </a>
+        </div>
     </div>
   )
 }

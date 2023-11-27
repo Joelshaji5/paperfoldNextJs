@@ -11,14 +11,14 @@ function Testimonial() {
         <h1 className='testimonialHeading'>Don’t Trust Us! Trust Them</h1>
       </div>
       <div className='dotedLine'>
-        <div className='flex logoContainer '>
+        <div className=' logoContainer '>
           <div>
             <img
               className='logoTestimonial'
               src='/dont-trust1.png'
               onMouseEnter={() => setShowData(1)}
             />
-            <div className={showData === 1 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
+            <div className={showData === 1 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
               <h1>John Doe, Orgniztn.</h1>
               <p>
                 Best market researchers, always updated with technology and
@@ -34,7 +34,7 @@ function Testimonial() {
               src='/dont-trust2.png'
               onMouseEnter={() => setShowData(2)}
             />
-            <div className={showData === 2 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
+            <div className={showData === 2 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
               <h1>John Doe, Orgniztn.</h1>
               <p>
                 Best market researchers, always updated with technology and
@@ -50,7 +50,7 @@ function Testimonial() {
               src='/dont-trust3.png'
               onMouseEnter={() => setShowData(3)}
             />
-            <div className={showData === 3 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
+            <div className={showData === 3 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
               <h1>John Doe, Orgniztn.</h1>
               <p>
                 Best market researchers, always updated with technology and
@@ -66,7 +66,7 @@ function Testimonial() {
               src='/dont-trust4.png'
               onMouseEnter={() => setShowData(4)}
             />
-            <div className={showData === 4 ? 'activeTestimonial activeTestimonialfade' : 'none'}>
+            <div className={showData === 4 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
               <h1>John Doe, Orgniztn.</h1>
               <p>
                 Best market researchers, always updated with technology and

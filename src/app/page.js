@@ -16,7 +16,6 @@ export default function Home() {
       {/* <Form /> */}
       {/* <Priceing /> */}
       {/* <Reels /> */}
-      <Footer />
 
     </div>
     )

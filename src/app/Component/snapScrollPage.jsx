@@ -9,6 +9,7 @@ import NavBars from "./NavBar/Navbar";
 import Testimonial from "./HomePageComponent/Testimonial";
 
 import "../Style/SnapScroolPage.css";
+import Footer from "./HomePageComponent/Footer/Footer";
 function SnapScrollPage() {
   return (
     <div>
@@ -43,6 +44,12 @@ function SnapScrollPage() {
 
         <section class="card card-6">
         <Testimonial />
+
+
+        </section>
+
+        <section class="card card-7">
+        <Footer />
 
 
         </section>
