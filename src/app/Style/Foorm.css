@@ -3,7 +3,6 @@
 
 .column1 {
     float: left;
-    width: 50%;
     padding: 10px;
     height: 554px; 
     /* background-color: #FFFFFF; */
@@ -42,7 +41,7 @@
     background: transparent;
   }
 
-  form > input{
+  .fromInSideDiv > input{
     width: 432px;
     border-bottom: 1px solid #000;
     margin-top: 30px;
@@ -53,7 +52,7 @@
 
 
 
-  input::placeholder {
+  .fromInSideDiv >input::placeholder {
     color: #424543;
     font-family: Montserrat;
     font-size: 14px;
@@ -157,4 +156,17 @@ margin-top: 16px;
     }
 
     .formimg{
+      position: relative;
+      top: -370px;
+      left: 250px;
+    }
+
+    .textareaform{
+    position: relative;
+    top: -300px;
+    }
+
+    .textareaformtext{
+      position: relative;
+      top: -300px;
     }
