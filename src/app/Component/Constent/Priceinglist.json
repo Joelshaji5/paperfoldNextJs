@@ -1,7 +1,7 @@
 {
   "Web Development": {
     "name": "Web Development",
-    "content1": "Are you on the lookout for top-tier website development services to craft online identity for your business or startup? Waste no time and choose Paperfold – we pride ourselves on being a leading website development company that ensures the best results at affordable prices. We are dedicated to transforming your digital aspirations into a tangible reality. Our seasoned team of developers stands at the forefront of technological innovation, committed to delivering websites that seamlessly blend aesthetics with functionality. Our Expertise Encompasses: Custom Website Development, E-Commerce Excellence, Responsive Design, Content Management Systems (CMS), API Integration, Website Maintenance and Support. Fast, Secure, SEO & Mobile Friendly Website Development Services worldwide.",
+    "content1": "Are you on  the lookout for top-tier website development services to craft online identity for your business or startup? Waste no time and choose Paperfold – we pride ourselves on being a leading website development company that ensures the best results at affordable prices. We are dedicated to transforming your digital aspirations into a tangible reality. Our seasoned team of developers stands at the forefront of technological innovation, committed to delivering websites that seamlessly blend aesthetics with functionality. Our Expertise Encompasses: Custom Website Development, E-Commerce Excellence, Responsive Design, Content Management Systems (CMS), API Integration, Website Maintenance and Support. Fast, Secure, SEO & Mobile Friendly Website Development Services worldwide.",
     "base": {
       "planName":"Base Plan",
       "features": [
@@ -74,10 +74,9 @@
   },
   "UI/UX Design": {
     "name": "UI/UX Design",
-    "content1": "te",
+    "content1": "As an agency that specializes in creating unforgettable digital experiences for users, our primary goal is to understand the end user’s requirements and expectations from any project we may take up.\n \n It is our dedication to reaching the expectations of our clients and users that motivates us to keep on innovating further within the field of UI/UX design.\nIt is what helps us strive to be the best UX design agency in India.\nWe pride ourselves on developing a result-oriented design process STEP (Soak, Think, Execute, & Proof) that not only demonstrates our way of working but also validates our progress via feedback (Proof) from our clients.\nIt is because of the sizeable experience we have, that we rank among the top UI/UX design studios in India.",
     "base": {
-      "planName":"Base Plan",
-
+      "planName": "Base Plan",
       "features": [
         "Logo",
         "Slider",
@@ -94,11 +93,10 @@
         "Click to Call/Email",
         "Mobile Responsive",
         "Login Details Will Be Given"
-    ]
+      ]
     },
     "medium": {
-      "planName":"Medium Plan",
-
+      "planName": "Medium Plan",
       "features": [
         "Logo",
         "Slider",
@@ -115,11 +113,10 @@
         "Click to Call/Email",
         "Mobile Responsive",
         "Login Details Will Be Given"
-    ]
+      ]
     },
     "pro": {
-      "planName":"Pro Plan",
-
+      "planName": "Pro Plan",
       "features": [
         "Up to 50 Products",
         "Logo",
@@ -132,9 +129,9 @@
         "Call/Email/Chat Support"
       ]
     }
-   
-   
-  },
+}
+,
+
   "Digital Marketing": {
     "name": "Digital Marketing",
     "content1": "te",

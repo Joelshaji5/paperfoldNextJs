@@ -1,3 +1,6 @@
+'use client'
+
+
 import React, { useRef, useState } from "react";
 import "../../Style/Foorm.css";
 import emailjs from "@emailjs/browser";

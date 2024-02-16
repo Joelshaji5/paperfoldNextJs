@@ -30,7 +30,9 @@
 }
 
 .activeService > .servicetableHeading{
-background-color: aqua;
+background-color: powderblue;
+border-radius: 10px;
+
 
 }
 
@@ -130,3 +132,35 @@ font-weight: 600;
     font-size: 18px;
     margin-top: 20px;
 }
+
+.GetQuotesBtn:hover{
+       
+    scale: 1.1;
+
+}
+
+@media screen and (max-width: 600px) {
+  
+    .serviceTable{
+            flex-direction: column;
+    }
+
+    .baseTable {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .GetQuotesBtn{
+        font-size: 12px;
+        padding: 7px 15px;
+
+    }
+    .GetQuotesBtn:hover{
+       
+        scale: 1.1;
+
+    }
+
+    }
+  
