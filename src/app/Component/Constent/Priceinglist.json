@@ -1,10 +1,207 @@
 {
-    "WebDevelopment": {
-        "name":"Web Development",
-      "Plans": ["Starter" , "Standard", "Pro" ],
-      "price": [20, 40 ,60],
-      "Benifits": ["benifit1","benifit2"]
+  "Web Development": {
+    "name": "Web Development",
+    "content1": "Are you on the lookout for top-tier website development services to craft online identity for your business or startup? Waste no time and choose Paperfold – we pride ourselves on being a leading website development company that ensures the best results at affordable prices. We are dedicated to transforming your digital aspirations into a tangible reality. Our seasoned team of developers stands at the forefront of technological innovation, committed to delivering websites that seamlessly blend aesthetics with functionality. Our Expertise Encompasses: Custom Website Development, E-Commerce Excellence, Responsive Design, Content Management Systems (CMS), API Integration, Website Maintenance and Support. Fast, Secure, SEO & Mobile Friendly Website Development Services worldwide.",
+    "base": {
+      "planName":"Base Plan",
+      "features": [
+        "Logo",
+        "Slider",
+        "Dynamic Website",
+        "1 Contact Form",
+        "Free SSL",
+        "Testimonials",
+        "Gallery Section",
+        "Chat Feature",
+        "Social Profile Link",
+        "Facebook Page Creation",
+        "Click to Call/Email",
+        "Mobile Responsive",
+        "Easy to Edit",
+        "Login Details Will Be Given",
+        "Delivery*"
+      ]
+    },
+    "medium": {
+      "planName":"Standard Plan",
+      "features": [
+        "Logo",
+        "Slider",
+        "Dynamic Website",
+        "1 Contact Form",
+        "Free SSL",
+        "Testimonials",
+        "Gallery Section",
+        "Chat Feature",
+        "Social Profile Link",
+        "Facebook Page Creation",
+        "Click to Call/Email",
+        "Mobile Responsive",
+        "Easy to Edit",
+        "Login Details Will Be Given",
+        "Delivery*"
+      ]
+    },
+    "pro": {
+      "planName":"Pro  Plan",
+
+      "features": [
+        "Up to 50 Products",
+        "Logo",
+        "Content – Free",
+        "WhatsApp Chat Integration",
+        "Social Media Profiles Integration",
+        "Social Profile Link",
+        "WordPress Login Details Will be Given",
+        "Payment Gateway",
+        "Call/Email/Chat Support"
+      ]
+    },
+    "Service": [
+      {
+        "name": "Ecommerce Website",
+        "content": "We offer a wide range of eCommerce website design & development services. We have unmatched expertise in working on all leading eCommerce platforms including Prestashop, Magento, OSCommerce, VirtueMart, Zencart, Opencart, Ubercart, WooCommerce, BigCommerce, Shopify, etc. At Paperfold Sequential we have a vast pool of skilled and professional eCommerce website developers who have great expertise in developing custom specifications, modules, and user-centric shopping cart software."
+      },
+      {
+        "name": "Custom Web App Development",
+        "content": "We, as a custom web app development company in India, catering to thousands of businesses and their digital needs all across the world. Along with our domain expertise, we have been working over to help start-ups and businesses of varied industries to develop B2B and B2C web applications. Our full-time custom web app developers have been giving their best to successfully deliver the projects to the clients."
+      },
+      {
+        "name": "Website Maintenance",
+        "content": "Let our experts take care of your website maintenance needs, while you take care of what’s more important for your business! Proactive and comprehensive website maintenance solutions Expert team of professionals dedicated to enhancing your website’s performance Custom-made maintenance packages to suit your specific needs Regular updates and security patches to keep your website safe Timely backups and disaster recovery options for peace of mind"
+      }
+    ]
+  },
+  "UI/UX Design": {
+    "name": "UI/UX Design",
+    "content1": "te",
+    "base": {
+      "planName":"Base Plan",
+
+      "features": [
+        "Logo",
+        "Slider",
+        "Dynamic Website",
+        "Domain-1st Year Free (.com or .in)",
+        "Hosting Free For 1st Year",
+        "1 Email – 500 MB Quota",
+        "1 Contact Form",
+        "Free SSL",
+        "Testimonials",
+        "Gallery Section",
+        "Chat Feature",
+        "Social Profile Link",
+        "Click to Call/Email",
+        "Mobile Responsive",
+        "Login Details Will Be Given"
+    ]
+    },
+    "medium": {
+      "planName":"Medium Plan",
+
+      "features": [
+        "Logo",
+        "Slider",
+        "Dynamic Website",
+        "Domain-1st Year Free (.com or .in)",
+        "Hosting Free For 1st Year",
+        "2 Email – 500 MB Quota Each",
+        "1 Contact Form",
+        "Free SSL",
+        "Testimonials",
+        "Gallery Section",
+        "Chat Feature",
+        "Social Profile Link",
+        "Click to Call/Email",
+        "Mobile Responsive",
+        "Login Details Will Be Given"
+    ]
+    },
+    "pro": {
+      "planName":"Pro Plan",
+
+      "features": [
+        "Up to 50 Products",
+        "Logo",
+        "Content – Free",
+        "WhatsApp Chat Integration",
+        "Social Media Profiles Integration",
+        "Social Profile Link",
+        "WordPress Login Details Will be Given",
+        "Payment Gateway",
+        "Call/Email/Chat Support"
+      ]
     }
+   
+   
+  },
+  "Digital Marketing": {
+    "name": "Digital Marketing",
+    "content1": "te",
+    "base": {
+      "planName":"Base Plan",
+
+      "features": [
+        "Logo",
+        "Slider",
+        "Dynamic Website",
+        "Domain-1st Year Free (.com or .in)",
+        "Hosting Free For 1st Year",
+        "1 Email – 500 MB Quota",
+        "1 Contact Form",
+        "Free SSL",
+        "Testimonials",
+        "Gallery Section",
+        "Chat Feature",
+        "Social Profile Link",
+        "Click to Call/Email",
+        "Mobile Responsive",
+        "Login Details Will Be Given"
+    ]
+    },
+    "medium": {
+      "planName":"Medium Plan",
+
+      "features": [
+        "Logo",
+        "Slider",
+        "Dynamic Website",
+        "Domain-1st Year Free (.com or .in)",
+        "Hosting Free For 1st Year",
+        "2 Email – 500 MB Quota Each",
+        "1 Contact Form",
+        "Free SSL",
+        "Testimonials",
+        "Gallery Section",
+        "Chat Feature",
+        "Social Profile Link",
+        "Click to Call/Email",
+        "Mobile Responsive",
+        "Login Details Will Be Given"
+    ]
+    },
+    "pro": {
+      "planName":"Pro Plan",
+
+      "features": [
+        "Up to 50 Products",
+        "Logo",
+        "Content – Free",
+        "WhatsApp Chat Integration",
+        "Social Media Profiles Integration",
+        "Social Profile Link",
+        "WordPress Login Details Will be Given",
+        "Payment Gateway",
+        "Call/Email/Chat Support"
+      ]
+    }
+   
+   
+  }
+
+
+
+
+  
+
 }
-
-
