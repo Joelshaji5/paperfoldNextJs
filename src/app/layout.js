@@ -2,6 +2,8 @@
 import "./globals.css";
 import { Inter, Montserrat } from "next/font/google";
 import StickyNavbar from "../app/Component/NavBar/Navbar"
+import Footer from "./Component/HomePageComponent/Footer/Footer";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,7 +19,7 @@ export default function RootLayout({ children }) {
       {/* <StickyNavbar /> */}
       {/* Header/ Navbar */}
       <body className={inter.className}>{children}</body>
-      {/* Footer */}
+
     </html>
   );
 }

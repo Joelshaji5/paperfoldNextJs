@@ -133,6 +133,25 @@ font-weight: 600;
     margin-top: 20px;
 }
 
+.serviceContentH
+{
+    font-family: Montserrat;
+    width: 80%;
+    margin: auto;
+    font-size: 38px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.serviceContentP
+{
+    font-family: Montserrat;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 .GetQuotesBtn:hover{
        
     scale: 1.1;

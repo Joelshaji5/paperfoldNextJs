@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Scoobies",
+        "subName": "Boba and Burgers",
+        "projectOverview": "As part of a comprehensive digital solution for Scoobies, a prominent restaurant chain based in Canada, we spearheaded the development of a dynamic online platform tailored to enhance user experience and streamline business operations.",
+        "services": ["Web", "CRM"],
+        "duration": "45 days",
+        "businessType": ["B2B", "B2C"],
+        "sector": "Food Chain",
+        "description": "Scoobies is a Burger & Boba fast-casual restaurant that serves Bold flavor Chicken, Beef, and Fish Burgers, Basket platters, Salads, fruit smoothies, and Fusion Boba Tea.",
+        "technologies": "Leveraged cutting-edge web development technologies to deliver a high-performance and visually stunning online platform for Scoobies, ensuring compatibility across various devices and browsers.",
+        "outcome": "The implementation of this comprehensive digital solution not only modernized Scoobies' online presence but also significantly improved operational efficiency and customer satisfaction. By seamlessly integrating essential functionalities such as B2B communication, menu showcasing, and third-party delivery services, the website emerged as a powerful tool for driving business growth and enhancing the overall brand experience."
+        ,"imageSrc":"/ScoobiesPortfolio.png"
+        ,"imageSrcMb":"/ScoobiesPortfolioMb.png"
+
+      }, 
+      
+      {
+        "name": "Esger",
+        "subName": "SCM Ai",
+        "projectOverview": "Esger extracts and organizes all useful information in audit report and flag risks in minutes. No more spending hours locating information.",
+              "services": ["Website"],
+        "duration": "60 days",
+        "businessType": ["B2B", "B2C"],
+        "sector": "Supply Chain",
+        "description": "Esger's innovative software revolutionizes the tedious process of auditing by swiftly extracting and organizing pertinent information from audit reports. Gone are the days of spending countless hours sifting through documents to locate critical details. ",
+        "technologies": "With Esger, users can efficiently navigate through audit reports, identifying and flagging risks within minutes. This streamlined approach not only saves valuable time but also enhances accuracy and effectiveness in risk management.        ",
+        "outcome": "Esger's product transforms auditing and risk management by automating information extraction, freeing professionals from manual tasks. This enables focus on strategic initiatives, enhancing efficiency and accuracy in navigating regulatory challenges. Esger heralds a new era of audit efficiency, empowering businesses to thrive amidst evolving risks."
+        ,"imageSrc":"/esgerPortfolio.png"
+        ,"imageSrcMb":"/esgerPortfolioMb.png"
+
+      }, 
+         
+      {
+        "name": "Phool",
+        "subName": "Made From Temple Flowers       ",
+        "projectOverview": "Phool collect millions of sacred flowers offered in the temples of India and employ 300+ women from marginalized communities to upcycle these flowers into the world's first certified, handcrafted incense products.",
+        "services": ["Website"],
+        "duration": "60 days",
+        "businessType": ["B2B", "B2C"],
+        "sector": "Supply Chain",
+        "description": "Phool pioneers a sustainable solution by collecting millions of sacred flowers offered in Indian temples, redirecting them from waste to valuable resources. Through this initiative, Phool not only reduces environmental impact but also empowers marginalized communities.",
+        "technologies": "These women are integral to Phool's mission, upcycling the flowers into the world's first certified, handcrafted incense products, thus creating a positive cycle of social and environmental change.",
+        "outcome": "Phool's innovative approach to social entrepreneurship showcases the power of leveraging traditional practices to address modern challenges. By upcycling temple flowers into incense products, Phool not only creates value for consumers but also fosters positive social impact and environmental stewardship. Through their journey, Phool demonstrates the transformative potential of entrepreneurship in promoting inclusive growth and sustainability."
+        ,"imageSrc":"/PhoolPortfolio.png"
+        ,"imageSrcMb":"/PhoolPortfolioMb.png"
+
+    
+      }, 
+         
+      {
+        "name": "Disney Hotstar",
+        "subName": "OTT Platform",
+        "projectOverview": " Highly evolved video streaming technology and a high attention to quality of experience across devices and platforms, make Disney+ Hotstar the most complete video destination for Over The Top (OTT) video consumers.",
+        "services": ["Website"], 
+        "duration": "60 days",
+        "businessType": ["B2B", "B2C"],
+        "sector": "OTT",
+        "description": "SDisney+ Hotstar stands out as the premier destination for Over The Top (OTT) video consumers, owing to its sophisticated video streaming technology and unwavering commitment to delivering top-notch quality across various devices and platforms. ",
+        "technologies": "With its highly evolved infrastructure, users can enjoy seamless streaming experiences, regardless of their preferred device or location. Whether on smartphones, tablets, smart TVs, or desktops, Disney+ Hotstar ensures an immersive viewing experience, setting the standard for OTT platforms.",
+        "outcome": "The implementation of this comprehensive digital solution not only modernized Scoobies' online presence but also significantly improved operational efficiency and customer satisfaction. By seamlessly integrating essential functionalities such as B2B communication, menu showcasing, and third-party delivery services, the website emerged as a powerful tool for driving business growth and enhancing the overall brand experience."
+        ,"imageSrc":"/DisneyPortfolo.png"
+        ,"imageSrcMb":"/DisneyPortfoloMb.png"
+
+      }, 
+      {
+        "name": "Smilepad",
+        "subName": "Hygiene",
+        "projectOverview": "It’s a journey towards a future where hygiene is a fundamental right for all. Smilepad delivers solutions to unspoken problems, creating a positive impact on society and redefining the role of hygiene in the well-being narrative for generations to come.",
+        "services": ["Website"], 
+        "duration": "90 days",
+        "businessType": ["B2B", "B2C"],
+        "sector": "Ecommerce",
+        "description": "Smilepad embarks on a transformative journey towards a future where hygiene is not just a privilege, but a fundamental right accessible to all. By addressing unspoken problems and delivering innovative solutions, Smilepad aims to make a profound impact on society. ",
+        "technologies": "Through its initiatives, Smilepad seeks to redefine the narrative around hygiene, positioning it as a crucial element in overall well-being for present and future generations.",
+        "outcome": "The outcome of Smilepad's efforts is a tangible shift in societal norms and attitudes towards hygiene. By raising awareness and providing practical solutions, Smilepad empowers individuals and communities to prioritize and maintain hygienic practices. This results in improved health outcomes, enhanced quality of life, and ultimately, a more equitable society where hygiene is recognized as a fundamental aspect of human dignity and well-being."
+        ,"imageSrc":"/smilepadPortfolio.png"
+        ,"imageSrcMb":"/smilepadPortfolioMb.png"
+
+      }
+  ]
+  

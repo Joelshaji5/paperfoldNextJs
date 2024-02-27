@@ -59,7 +59,6 @@ const ServiceList = () => {
 
       <h1 className='mt-12 text-center serviceHeading'>{serviceData.name}</h1>
 
-
       <div className='flex serviceTable'>
       {serviceData.base && (
         <div className={`baseTable ${activeIndex === 0 ? 'activeService' : ''}`} onClick={() => handleToggleActive(0)}>
@@ -75,6 +74,7 @@ const ServiceList = () => {
           <button className='GetQuotesBtn'>Get Quote</button>
 
         </div>
+
       )}
 
       {serviceData.medium && (
@@ -111,6 +111,19 @@ const ServiceList = () => {
 
 
       <h1 className='serviceContent'>{serviceData.content1}</h1>
+
+      <div className='mt-14'>
+         {
+          serviceData.services?.map((ServiceQuestion)=>{
+            return(
+              <div >
+              <h1 className='serviceContentH' >{ServiceQuestion.name}</h1>
+              <p className='serviceContentP' >{ServiceQuestion.content}</p>
+              </div>
+            )
+          })
+         }     
+      </div>
 
    
 

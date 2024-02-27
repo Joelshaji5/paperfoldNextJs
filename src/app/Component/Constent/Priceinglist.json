@@ -1,9 +1,9 @@
 {
   "Web Development": {
     "name": "Web Development",
-    "content1": "Are you on  the lookout for top-tier website development services to craft online identity for your business or startup? Waste no time and choose Paperfold – we pride ourselves on being a leading website development company that ensures the best results at affordable prices. We are dedicated to transforming your digital aspirations into a tangible reality. Our seasoned team of developers stands at the forefront of technological innovation, committed to delivering websites that seamlessly blend aesthetics with functionality. Our Expertise Encompasses: Custom Website Development, E-Commerce Excellence, Responsive Design, Content Management Systems (CMS), API Integration, Website Maintenance and Support. Fast, Secure, SEO & Mobile Friendly Website Development Services worldwide.",
+    "content1": "Are you on the lookout for top-tier website development services to craft online identity for your business or startup? Waste no time and choose Paperfold – we pride ourselves on being a leading website development company that ensures the best results at affordable prices. We are dedicated to transforming your digital aspirations into a tangible reality. Our seasoned team of developers stands at the forefront of technological innovation, committed to delivering websites that seamlessly blend aesthetics with functionality. Our Expertise Encompasses: Custom Website Development, E-Commerce Excellence, Responsive Design, Content Management Systems (CMS), API Integration, Website Maintenance and Support. Fast, Secure, SEO & Mobile Friendly Website Development Services worldwide.",
     "base": {
-      "planName":"Base Plan",
+      "planName": "Base Plan",
       "features": [
         "Logo",
         "Slider",
@@ -23,7 +23,7 @@
       ]
     },
     "medium": {
-      "planName":"Standard Plan",
+      "planName": "Standard Plan",
       "features": [
         "Logo",
         "Slider",
@@ -43,8 +43,7 @@
       ]
     },
     "pro": {
-      "planName":"Pro  Plan",
-
+      "planName": "Pro Plan",
       "features": [
         "Up to 50 Products",
         "Logo",
@@ -57,7 +56,7 @@
         "Call/Email/Chat Support"
       ]
     },
-    "Service": [
+    "services": [
       {
         "name": "Ecommerce Website",
         "content": "We offer a wide range of eCommerce website design & development services. We have unmatched expertise in working on all leading eCommerce platforms including Prestashop, Magento, OSCommerce, VirtueMart, Zencart, Opencart, Ubercart, WooCommerce, BigCommerce, Shopify, etc. At Paperfold Sequential we have a vast pool of skilled and professional eCommerce website developers who have great expertise in developing custom specifications, modules, and user-centric shopping cart software."
@@ -74,7 +73,7 @@
   },
   "UI/UX Design": {
     "name": "UI/UX Design",
-    "content1": "As an agency that specializes in creating unforgettable digital experiences for users, our primary goal is to understand the end user’s requirements and expectations from any project we may take up.\n \n It is our dedication to reaching the expectations of our clients and users that motivates us to keep on innovating further within the field of UI/UX design.\nIt is what helps us strive to be the best UX design agency in India.\nWe pride ourselves on developing a result-oriented design process STEP (Soak, Think, Execute, & Proof) that not only demonstrates our way of working but also validates our progress via feedback (Proof) from our clients.\nIt is because of the sizeable experience we have, that we rank among the top UI/UX design studios in India.",
+    "content1": "Struggling to Turn Visitors into Customers? Welcome to the Future of Web Design: Exclusively Modern, Exceptionally Yours! Why Choose Paperfold? As an agency that specializes in creating unforgettable digital experiences for users, our primary goal is to understand the end user’s requirements and expectations from any project we may take up. It is our dedication to reaching the expectations of our clients and users that motivates us to keep on innovating further within the field of UI/UX design. It is what helps us strive to be the best UX design agency in India. We pride ourselves on developing a result-oriented design process STEP (Soak, Think, Execute, & Proof) that not only demonstrates our way of working but also validates our progress via feedback (Proof) from our clients. It is because of the sizeable experience we have, that we rank among the top UI/UX design studios in India. Global Reach, Local Impact: In a world connected by pixels, we understand the importance of cultural sensitivity. Our designs transcend geographical boundaries, ensuring your brand connects universally while maintaining that essential local resonance. Your Vision, Our Design Expertise: Our UI/UX design team is a collective of creative minds dedicated to transforming your vision into visually stunning and intuitively functional digital experiences.",
     "base": {
       "planName": "Base Plan",
       "features": [
@@ -128,16 +127,31 @@
         "Payment Gateway",
         "Call/Email/Chat Support"
       ]
-    }
-}
-,
-
+    },
+    "services": [
+      {
+        "name": "Putting Users First",
+        "content": "Your users are at the heart of our design process. Every click, swipe, and interaction is crafted to be intuitive, enjoyable, and purposeful. We dig deep into their needs, behaviors, and preferences to create designs that truly resonate."
+      },
+      {
+        "name": "UX Strategy - User at the Core",
+        "content": "Crafting experiences that users love requires more than intuition, it demands strategy. Our UX experts map out user journeys, anticipate needs, and optimize every interaction to enhance overall satisfaction."
+      },
+      {
+        "name": "Web Design - Your Digital Identity",
+        "content": "Your website is your digital handshake. Our web designs not only look good but are a seamless extension of your brand, ensuring a flawless and engaging user experience."
+      },
+      {
+        "name": "Why Your Website Needs Paperfold's Touch",
+        "content": "Collaboration in Design: Your vision is the nucleus of our design process. We thrive on collaboration, combining your dreams with our expertise to create designs that not only meet expectations but exceed them.\nBespoke Modernity for Your Brand: Your brand is distinct, and so should be your website. Each design we create is tailor-made to encapsulate your brand’s identity with a modern twist."
+      }
+    ]
+  },
   "Digital Marketing": {
     "name": "Digital Marketing",
-    "content1": "te",
+    "content1": "Digital Marketing Content",
     "base": {
-      "planName":"Base Plan",
-
+      "planName": "Base Plan",
       "features": [
         "Logo",
         "Slider",
@@ -154,51 +168,82 @@
         "Click to Call/Email",
         "Mobile Responsive",
         "Login Details Will Be Given"
-    ]
+      ]
     },
     "medium": {
-      "planName":"Medium Plan",
-
+      "planName": "Medium Plan",
       "features": [
-        "Logo",
-        "Slider",
-        "Dynamic Website",
-        "Domain-1st Year Free (.com or .in)",
-        "Hosting Free For 1st Year",
-        "2 Email – 500 MB Quota Each",
-        "1 Contact Form",
-        "Free SSL",
-        "Testimonials",
-        "Gallery Section",
-        "Chat Feature",
-        "Social Profile Link",
-        "Click to Call/Email",
-        "Mobile Responsive",
-        "Login Details Will Be Given"
-    ]
+        "WEBSITE REVIEW & ANALYSIS",
+        "Max 20 Keywords",
+        "Website & Competitor Analysis",
+        "Content Duplicity Check",
+        "Initial Ranking Report",
+        "Keywords Research",
+        "ON PAGE SEO ANALYSIS",
+        "Meta Tags Creation",
+        "URL Structure Optimization",
+        "Content Optimization",
+        "Image Optimization",
+        "Heading Tag Optimization",
+        "Website Speed Optimization",
+        "Robots.txt",
+        "Sitemap Creation",
+        "Google Analytics & Search Console Setup",
+        "Blog Optimization – 5 Posts",
+        "LOCAL SEO SETUP",
+        "Google Map Integration on website",
+        "Google My Business Page Setup and Optimization",
+        "CONTENT MARKETING",
+        "Blog Posting (500 – 700 words)",
+        "Article Writing (500 – 700 words)",
+        "Onsite Blog (1000 – 1500 words) – 3"
+      ]
     },
     "pro": {
-      "planName":"Pro Plan",
-
+      "planName": "Pro Plan",
       "features": [
-        "Up to 50 Products",
-        "Logo",
-        "Content – Free",
-        "WhatsApp Chat Integration",
-        "Social Media Profiles Integration",
-        "Social Profile Link",
-        "WordPress Login Details Will be Given",
-        "Payment Gateway",
-        "Call/Email/Chat Support"
+        "Website Review & Analysis (Max 40 Keywords)",
+        "Website & Competitor Analysis",
+        "Content Duplicity Check",
+        "Initial Ranking Report",
+        "Keywords Research",
+        "On Page SEO Analysis",
+        "Meta Tags Creation",
+        "URL Structure Optimization",
+        "Content Optimization",
+        "Image Optimization",
+        "Heading Tag Optimization",
+        "Website Speed Optimization",
+        "Sitemap Creation",
+        "Google Analytics & Search Console Setup",
+        "Blog Optimization – 5 Posts",
+        "Local SEO Setup",
+        "Google Map Integration on website",
+        "Google My Business Page Setup and Optimization",
+        "Content Marketing",
+        "Blog Posting (500 – 700 words)",
+        "Article Writing (500 – 700 words)",
+        "Onsite Blog (1000 – 1500 words)",
+        "Email Outreach",
+        "Guest Blogging",
+        "Broken Backlink Building",
+        "Resource Link Building",
+        "Alerts and Mention",
+        "Link Roundups",
+        "Competitor Backlink Research",
+        "Off Page SEO",
+        "Social Sharing – 50(Total)",
+        "Blog Social Sharing",
+        "Slide Submissions – 2",
+        "Text Infographic Creation – 3",
+        "Video-1 Minute (Product Based)",
+        "Q & A – 5",
+        "Monthly Reporting",
+        "Keyword Ranking Report",
+        "Google Analytics Report",
+        "Acquired Links Report",
+        "Client Support (Email, Chat, Call)"
       ]
     }
-   
-   
   }
-
-
-
-
-  
-
 }
