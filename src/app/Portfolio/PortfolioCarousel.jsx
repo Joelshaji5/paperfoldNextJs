@@ -128,9 +128,9 @@ const PortfolioCarousel = () => {
                 <p className='OverviewSmallDivP'>Type</p>
                 <div className='flex'>
 
-                {services.map((itm)=>{
+                {services.map((itm, index)=>{
                   return(
-                    <h3 className='OverviewSmallDivH'>{itm}</h3>
+                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
                   )
                 })}
                 </div>
@@ -146,9 +146,9 @@ const PortfolioCarousel = () => {
             <div className='OverviewSmallDivMain'>
               <div className='OverviewSmallDiv'>
               <p className='OverviewSmallDivP'>Business Type</p>
-                {typeCard.map((itm)=>{
+                {typeCard.map((itm , index)=>{
                   return(
-                    <h3 className='OverviewSmallDivH'>{itm}</h3>
+                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
                   )
                 })}
 
