@@ -21,6 +21,10 @@ const PortfolioCarousel = () => {
     const [projectOverview, setProjectOverview] = useState(DataPortfolio[0].projectOverview);
     const [technologies, setTechnologies] = useState(DataPortfolio[0].technologies);
     const [outcome, setOutcome] = useState(DataPortfolio[0].outcome);
+    const [infoImg, setInfoImg] = useState(DataPortfolio[0].imageSrcInfo);
+    const [infoImg2, setInfoImg2] = useState(DataPortfolio[0].imageSrcInfo2);
+
+
 
 
 
@@ -43,7 +47,9 @@ const PortfolioCarousel = () => {
         setDescription(imageData.description);
         setProjectOverview(imageData.projectOverview);
         setTechnologies(imageData.technologies);
-        setOutcome(imageData.outcome)
+        setOutcome(imageData.outcome);
+        setInfoImg2(imageData.imageSrcInfo2);
+        setInfoImg(imageData.imageSrcInfo);
         
     };
 
@@ -84,7 +90,9 @@ const PortfolioCarousel = () => {
               slidesToShow: 1,
               initialSlide: initialSlide,
               slidesToScroll: 1,
-              autoplay: true
+              autoplay: false,
+              dots: true,
+              
 
             }
           }
@@ -98,9 +106,66 @@ const PortfolioCarousel = () => {
                     <div key={index} className='MobileDivPortfolio' onClick={(event) => handleImageClick(imageData, event, index)}>
                         
                         <img className='PortfolioImage' src={imageData.imageSrcMb} alt={`PortfolioMbImage ${index + 1}`} />
+                  <h1 className='CardTitle'>{imageData.name}</h1>
+            <h1 className='CardSubHeading'>{imageData.subName}</h1>
+            <h1 className='ProjectOverView'>Project Overview</h1>
+            <h1 className='CardDescription'>{imageData.projectOverview}</h1>
+            <div className='OverviewSmallDivMain'>
+              <div className='OverviewSmallDiv'>
+                <p className='OverviewSmallDivP'>Type</p>
+                <div className='flex'>
+                {imageData.services.map((itm, index)=>{
+                  return(
+                    <>
+                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
+                    {index !== imageData.businessType.length - 1 && <span className='OverviewSmallDivH'> , </span>}
+                    </>
+                  )
+                })}
 
+                
+                </div>
+              </div>
+              <div className='OverviewSmallDiv'>
+              <p className='OverviewSmallDivP'>Duration</p>
+              <h3 className='OverviewSmallDivH'>{imageData.duration}</h3>
+
+
+              </div>
+            </div>
+
+            <div className='OverviewSmallDivMain'>
+              <div className='OverviewSmallDiv'>
+              <p className='OverviewSmallDivP'>Business Type</p>
+              <div className='flex'>
+              {imageData.businessType.map((itm, index)=>{
+                  return(
+                    <>
+                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
+                    {index !== imageData.businessType.length - 1 && <span className='OverviewSmallDivH'> , </span>}
+                    </>
+
+                  )
+                })}
+                </div>
+
+              </div >
+              <div className='OverviewSmallDiv'>
+                <p className='OverviewSmallDivP'>Sector</p>
+                <h3 className='OverviewSmallDivH'>{imageData.sector}</h3>
+              </div>
+            </div>
+            <img src={imageData.imageSrcInfo} alt='scoobies' />
+            <p className='PortfolioDescription'>{imageData.description}</p>
+            <p className='PortfolioDescription2'>{imageData.technologies}</p>
+            <img src={imageData.imageSrcInfo2} alt='Image' />
+
+            <h1 className='Outcome'>Outcome</h1>
+            <p className='OutcomeP'>{imageData.outcome}</p>
                     </div>
+                    
                 ))}
+                
             </Slider>
         </div>
     );
@@ -109,7 +174,11 @@ const PortfolioCarousel = () => {
         <Slider {...settings}>
             {DataPortfolio.map((imageData, index) => (
                 <div key={index} className='PorfolioPcImgDiv' onClick={(event) => handleImageClick(imageData, event, index)}>
+                    
                         <img className='PortfolioImage' src={imageData.imageSrc} alt={`PortfolioMbImage ${index + 1}`} />
+                
+
+                
                 </div>
             ))}
         </Slider>
@@ -119,6 +188,8 @@ const PortfolioCarousel = () => {
         <div className='MbTesting'>     
             <Testing />
             {isMobile ? <MobileImageSlider /> : <PCImageSlider />}
+            <div className='HideMblider'>
+
             <h1 className='CardTitle'>{titleCard}</h1>
             <h1 className='CardSubHeading'>{subHeading}</h1>
             <h1 className='ProjectOverView'>Project Overview</h1>
@@ -126,44 +197,13 @@ const PortfolioCarousel = () => {
             <div className='OverviewSmallDivMain'>
               <div className='OverviewSmallDiv'>
                 <p className='OverviewSmallDivP'>Type</p>
-                <div className='flex'>
 
-                {services.map((itm, index)=>{
-                  return(
-                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
-                  )
-                })}
                 </div>
-              </div>
-              <div className='OverviewSmallDiv'>
-              <p className='OverviewSmallDivP'>Duration</p>
-              <h3 className='OverviewSmallDivH'>{DaysCard}</h3>
+                </div>
 
 
-              </div>
+
             </div>
-
-            <div className='OverviewSmallDivMain'>
-              <div className='OverviewSmallDiv'>
-              <p className='OverviewSmallDivP'>Business Type</p>
-                {typeCard.map((itm , index)=>{
-                  return(
-                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
-                  )
-                })}
-
-              </div >
-              <div className='OverviewSmallDiv'>
-                <p className='OverviewSmallDivP'>Sector</p>
-                <h3 className='OverviewSmallDivH'>{sector}</h3>
-              </div>
-            </div>
-            <p className='PortfolioDescription'>{description}</p>
-            <p className='PortfolioDescription2'>{technologies}</p>
-
-            <h1 className='Outcome'>Outcome</h1>
-            <p className='OutcomeP'>{outcome}</p>
-
 
         </div>
     );

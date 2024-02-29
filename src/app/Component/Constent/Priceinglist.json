@@ -149,7 +149,7 @@
   },
   "Digital Marketing": {
     "name": "Digital Marketing",
-    "content1": "Digital Marketing Content",
+    "content1": "Captivate your local audience with our targeted Local SEO services. We optimize your online presence to ensure your business shines in local searches, driving foot traffic and boosting engagement within your community.",
     "base": {
       "planName": "Base Plan",
       "features": [
@@ -244,6 +244,99 @@
         "Acquired Links Report",
         "Client Support (Email, Chat, Call)"
       ]
+    },
+    "services": [
+      {
+        "name": "Unmatched Expertise:",
+        "content": "SEO is not just a service for us; it's our craft. Our team of SEO experts brings a wealth of knowledge and hands-on experience to propel your brand to the top of search engine rankings."
+      },
+      {
+        "name": "Global Reach, Local Impact:",
+        "content": "In a world connected by clicks, we understand the nuances of global and local markets. Our SEO strategies are tailored to transcend borders while embracing the unique characteristics of each target audience.\nStart getting more qualified traffic, increased sales, and higher rankings on SERPs by requesting search engine optimization services for your business website type from leading SEO Company, Paperfold Sequential."
+      },
+      {
+        "name": "Holistic Approach:",
+        "content": "We offer a comprehensive suite of SEO services, ensuring every aspect of your digital presence is optimized for success."
+      },
+      {
+        "name": "Global Expertise:",
+        "content": "With a global perspective, we navigate diverse markets, tailoring our strategies to meet the unique challenges and opportunities of each region."
+      },
+      {
+        "name": "Results-Driven Solutions:",
+        "content": "Our commitment is to deliver tangible results. Watch your rankings soar, your traffic multiply, and your brand become a digital force to be reckoned with."
+      }
+    ]
+  },
+  "PPC Services": {
+    "name": "PPC Campaign Management",
+    "content1": "Looking to maximize your online advertising ROI with expert PPC campaign management? Look no further! Our comprehensive PPC services ensure targeted ads, optimized keywords, and compelling ad copies across various platforms. With dedicated support and monthly reports, we guarantee results that exceed your expectations.",
+    "base": {
+      "planName": "Basic Plan",
+      "features": [
+        "Campaign: 1",
+        "Ad Groups: 2",
+        "Ad Copies: Max 6",
+        "Keywords: 50",
+        "Search Ads",
+        "Conversion Tracking",
+        "Competitor Analysis",
+        "Keyword Optimization",
+        "Ad Copy Optimization",
+        "Monthly Reports",
+        "Support: Email, Chat"
+      ]
+    },
+    "medium": {
+      "planName": "Advance Plan",
+      "features": [
+        "Campaign: 2",
+        "Ad Groups: 6",
+        "Ad Copies: Max 15",
+        "Keywords: 100",
+        "Search Ads",
+        "Display Ads",
+        "Gmail Ads",
+        "Video Ads",
+        "App Promotion Ads",
+        "Remarketing List",
+        "Conversion Tracking",
+        "PPC Campaign Management",
+        "Competitor Analysis",
+        "Keyword Optimization",
+        "Ad Copy Optimization",
+        "ROI Analysis",
+        "Landing Page Optimization",
+        "Monthly Reports",
+        "Support: Email, Chat"
+      ]
+    },
+    "pro": {
+      "planName": "Enterprise Plan",
+      "features": [
+        "Campaign: 5",
+        "Ad Groups: 1",
+        "Ad Copies: Max 50",
+        "Keywords: 150",
+        "Search Ads",
+        "Display Ads",
+        "Gmail Ads",
+        "Video Ads",
+        "Shopping Ads",
+        "App Promotion Ads",
+        "Remarketing List",
+        "Conversion Tracking",
+        "PPC Campaign Management",
+        "Competitor Analysis",
+        "Keyword Optimization",
+        "Ad Copy Optimization",
+        "ROI Analysis",
+        "Landing Page Optimization",
+        "Monthly Reports",
+        "Dedicated Account Manager",
+        "Support: Email, Chat"
+      ]
     }
   }
+  
 }

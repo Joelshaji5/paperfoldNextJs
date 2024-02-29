@@ -18,6 +18,7 @@ const Services = [
     "Web Development",
     "UI/UX Design",
     "Digital Marketing",
+    "PPC Services"
    ];
 
 const ServiceList = () => {

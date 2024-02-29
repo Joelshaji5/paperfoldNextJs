@@ -1,5 +1,4 @@
 .SliderMb{
-    height: 50vh;
     overflow: hidden; /* Add this to hide overflow content */
 
 
@@ -41,9 +40,19 @@
 
 
 .MbTesting{
-    display: none;
+    display: block;
 }
+
+
+.HideMblider{
+    display: block;
+}
+
 @media only screen and (max-width: 780px) {
+
+    .HideMblider{
+        display: none;
+    }
 
 .SliderMb{
     margin-top: 10px;
