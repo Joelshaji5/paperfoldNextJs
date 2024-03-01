@@ -116,10 +116,10 @@ const PortfolioCarousel = () => {
                 <div className='flex'>
                 {imageData.services.map((itm, index)=>{
                   return(
-                    <>
-                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
+                    <div  key={index}>
+                    <h3 className='OverviewSmallDivH'>{itm}</h3>
                     {index !== imageData.businessType.length - 1 && <span className='OverviewSmallDivH'> , </span>}
-                    </>
+                    </div>
                   )
                 })}
 
@@ -140,10 +140,10 @@ const PortfolioCarousel = () => {
               <div className='flex'>
               {imageData.businessType.map((itm, index)=>{
                   return(
-                    <>
-                    <h3 key={index} className='OverviewSmallDivH'>{itm}</h3>
+                    <div key={index}>
+                    <h3  className='OverviewSmallDivH'>{itm}</h3>
                     {index !== imageData.businessType.length - 1 && <span className='OverviewSmallDivH'> , </span>}
-                    </>
+                    </div>
 
                   )
                 })}
