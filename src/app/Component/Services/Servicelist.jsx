@@ -2,6 +2,13 @@
 import React, { useState } from 'react';
 import Data from "../Constent/Priceinglist.json";
 import "../../Style/Servicelist.css"
+import { Inter, Roboto } from 'next/font/google'
+ 
+const inter = Inter({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 
 // const Services = [
@@ -36,9 +43,9 @@ const ServiceList = () => {
 
   const handleToggleActive = (index) => {
     if (activeIndex === index) {
-      setActiveIndex(null); // Toggle off if already active
+      setActiveIndex(null); 
     } else {
-      setActiveIndex(index); // Set active if not already active
+      setActiveIndex(index); 
     }
   };
 
@@ -57,7 +64,7 @@ const ServiceList = () => {
 
       
 
-      <h1 className='mt-12 text-center serviceHeading'>{serviceData.name}</h1>
+      <h1 className='mt-12 text-center serviceHeading inter.className '>{serviceData.name}</h1>
 
       <div className='flex serviceTable'>
       {serviceData.base && (

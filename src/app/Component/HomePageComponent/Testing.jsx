@@ -16,7 +16,7 @@ const Navbar = () => {
     },
     {
       id: 2,
-      link: "Our Products",
+      link: "Products",
       name: "Our Products"
     },
     {

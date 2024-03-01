@@ -6,7 +6,19 @@ import Footer from "./Component/HomePageComponent/Footer/Footer";
 
 
 
-const inter = Inter({ subsets: ["latin"] });
+
+export const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable:'--inter'
+
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 
 export const metadata = {
   title: "Paperfold Sequential",
@@ -18,7 +30,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <StickyNavbar /> */}
       {/* Header/ Navbar */}
-      <body className={inter.className}>{children}</body>
+      <body className={inter.variable
+      }>{children}</body>
 
     </html>
   );
