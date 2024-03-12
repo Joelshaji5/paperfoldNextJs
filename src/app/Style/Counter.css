@@ -60,6 +60,11 @@ margin-top: 20%;
 }
 
 
+.BrandTitileHome{
+    position: relative;
+    width: 66%;
+}
+
 @media only screen and (max-width: 780px) {
 
 .MilestoneBody {

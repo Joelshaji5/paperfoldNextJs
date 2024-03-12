@@ -5,20 +5,15 @@ import StickyNavbar from "../app/Component/NavBar/Navbar"
 import Footer from "./Component/HomePageComponent/Footer/Footer";
 
 
-
-
-export const inter = Inter({
+const interStyles = Inter({
   subsets: ['latin'],
   display: 'swap',
-  variable:'--inter'
+});
 
-})
-
-const montserrat = Montserrat({
+export const montserratStyles = Montserrat({
   subsets: ['latin'],
   display: 'swap',
-})
-
+});
 
 export const metadata = {
   title: "Paperfold Sequential",
@@ -30,8 +25,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <StickyNavbar /> */}
       {/* Header/ Navbar */}
-      <body className={inter.variable
-      }>{children}</body>
+      <body style={{ "--inter": interStyles.variable, "--montserrat": montserratStyles.variable }}>
+
+        {children}</body>
 
     </html>
   );

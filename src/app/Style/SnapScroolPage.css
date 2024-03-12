@@ -24,7 +24,7 @@ html{
 
 
         .card-1{
-          top: -279vh;
+          /* top: -279vh; */
           bottom: 0vh;
                     z-index: 1;
                     /* width: 50%; */

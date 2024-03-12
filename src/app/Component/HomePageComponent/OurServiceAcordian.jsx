@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../Style/OurServiceAcordian.css";
 
 const OurServiceAccordion = () => {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(3);
 
   const artists = [
     {
@@ -102,7 +102,7 @@ const OurServiceAccordion = () => {
         <h1 className="Servicetxt">Our Services</h1>
       </div>
 
-      <div className=" w-[1150px]     h-[523px] ServiceCardDiv mr-5 ">
+      <div className=" HomeCDiv     h-[523px] ServiceCardDiv mr-5 ">
         <ul className="h-[99%]  mb-20 Serviceul">
           {artists.map((artist, i) => (
             <li 

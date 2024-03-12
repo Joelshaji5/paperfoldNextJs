@@ -132,10 +132,10 @@ const PortfolioCarousel = () => {
               src={imageData.imageSrcMb}
               alt={`PortfolioMbImage ${index + 1}`}
             />
-            <h1 className="CardTitle montserrat.className">{imageData.name}</h1>
+            <h1 className="CardTitle  ">{imageData.name}</h1>
             <h1 className="CardSubHeading font-inter">{imageData.subName}</h1>
             <h1 className="ProjectOverView">Project Overview</h1>
-            <h1 className="CardDescription Inter.className">
+            <h1 className={`CardDescription ${interStyles.className}`}>
               {imageData.projectOverview}
             </h1>
             <div className="OverviewSmallDivMain">

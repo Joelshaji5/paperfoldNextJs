@@ -40,7 +40,7 @@ function OurClient() {
         <Carouselrl />
 
 </div>
-        <button className="border text-black mt-9 bg-slate-50 rounded-3xl p-3 OCWorkBtn">Work With Us</button>
+        <button className="border text-black mt-0 md:mt-9 bg-slate-50 rounded-3xl p-3 OCWorkBtn">Work With Us</button>
       </div>
     </div>
   );

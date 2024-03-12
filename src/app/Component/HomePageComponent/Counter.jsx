@@ -86,7 +86,7 @@ function Counter() {
               <span className="ml-4">+</span>
                 </div>
 
-              <h2>Branding & Content Handling</h2>
+              <h2 className="BrandTitileHome">Branding & Content Handling</h2>
             
             </div>
           </div>
