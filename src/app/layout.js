@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       {/* <StickyNavbar /> */}
       {/* Header/ Navbar */}
       <body style={{ "--inter": interStyles.variable, "--montserrat": montserratStyles.variable }}>
-
+{/* <body> */}
         {children}</body>
 
     </html>
