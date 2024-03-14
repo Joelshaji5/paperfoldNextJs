@@ -135,7 +135,7 @@ const PortfolioCarousel = () => {
             <h1 className="CardTitle  ">{imageData.name}</h1>
             <h1 className="CardSubHeading font-inter">{imageData.subName}</h1>
             <h1 className="ProjectOverView">Project Overview</h1>
-            <h1 className={`CardDescription ${interStyles.className}`}>
+            <h1 className="CardDescription">
               {imageData.projectOverview}
             </h1>
             <div className="OverviewSmallDivMain">

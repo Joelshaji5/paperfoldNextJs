@@ -58,8 +58,9 @@ const ServiceList = () => {
           </li>
         ))}
       </ul>
+      <a href="https://paperfold-next-mr2t07c8s-paperfolds-projects.vercel.app/contact">
       <button className='GetQuotesBtn'>Get Quote</button>
-    </div>
+      </a>    </div>
   )}
 
   {serviceData.medium && (
@@ -73,8 +74,9 @@ const ServiceList = () => {
           </li>
         ))}
       </ul>
+      <a href="https://paperfold-next-mr2t07c8s-paperfolds-projects.vercel.app/contact">
       <button className='GetQuotesBtn'>Get Quote</button>
-    </div>
+      </a>    </div>
   )}
 
   {serviceData.pro && (
@@ -88,7 +90,9 @@ const ServiceList = () => {
           </li>
         ))}
       </ul>
+      <a href="https://paperfold-next-mr2t07c8s-paperfolds-projects.vercel.app/contact">
       <button className='GetQuotesBtn'>Get Quote</button>
+      </a>
     </div>
   )}
 </div>
