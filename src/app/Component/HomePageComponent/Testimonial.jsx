@@ -19,11 +19,9 @@ function Testimonial() {
               onMouseEnter={() => setShowData(1)}
             />
             <div className={showData === 1 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
-              <h1>John Doe, Orgniztn.</h1>
+              <h1>Abhinav, Nanoswab Solutions.</h1>
               <p>
-                Best market researchers, always updated with technology and
-                methods. Their market advice increases my revenue by almost 50%
-                and still working to achieve even more.
+              We Appreciate the amount of efforts Paperfold put to develop out technical infra. It's been 3 years and we are up and running smoothly.
               </p>
             </div>
           </div>
@@ -35,11 +33,9 @@ function Testimonial() {
               onMouseEnter={() => setShowData(2)}
             />
             <div className={showData === 2 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
-              <h1>John Doe, Orgniztn.</h1>
+              <h1>Tejaswini Patil, Proodos.</h1>
               <p>
-                Best market researchers, always updated with technology and
-                methods. Their market advice increases my revenue by almost 50%
-                and still working to achieve even more.
+              Paperfold has shown amazing team effort. They always have a unique approach towards things and come up with positive suggestions.
               </p>
             </div>
           </div>
@@ -51,11 +47,9 @@ function Testimonial() {
               onMouseEnter={() => setShowData(3)}
             />
             <div className={showData === 3 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
-              <h1>John Doe, Orgniztn.</h1>
+              <h1>Saket Dandotia, Linkites .</h1>
               <p>
-                Best market researchers, always updated with technology and
-                methods. Their market advice increases my revenue by almost 50%
-                and still working to achieve even more.
+              Paperfold Regular updates and achieving in minimum time trame make our work even easier to plan ahead for the next phase. kudos to them !  
               </p>
             </div>
           </div>

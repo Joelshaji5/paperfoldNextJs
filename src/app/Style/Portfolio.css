@@ -51,7 +51,7 @@ text-align: center;
 
 .CardTitle{
     color: #000;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-size: 64px;
     font-style: normal;
     font-weight: 600;

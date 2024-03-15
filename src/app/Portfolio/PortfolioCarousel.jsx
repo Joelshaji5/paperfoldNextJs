@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useMediaQuery } from "react-responsive";
+import { Inter } from 'next/font/google'
+
 import "../Style/Portfolio.css";
 import Testing from "../Component/HomePageComponent/Testing";
 import DataPortfolio from "../Component/Constent/PortfolioData.json";

@@ -108,6 +108,7 @@ margin-top: 84px;
     background-image: url("/FormPage.png");
     background-repeat: no-repeat;
     object-fit: cover;
+    display: block;
 }
 
 
@@ -169,4 +170,104 @@ margin-top: 16px;
     .textareaformtext{
       position: relative;
       top: -300px;
+    }
+
+    .MbForm{
+      display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+
+    .MbForm{
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+      margin: auto;
+      margin-inline:20px;
+
+
+    }
+
+    .FormMainHeroDivBoth{
+      background: #E8E8E8;
+      padding-bottom: 50px;
+    }
+
+    .formMainDiv{
+      display: none;
+    }
+
+    .MbForm{
+      display: block;
+      padding-top: 70px;
+      
+    }
+
+    .FormDivMb{
+      background-color: #FFF;
+      border-radius: 18px;
+    }
+
+    .MbForm > input{
+      background-color: #FFF;
+      width: 80vw;
+      margin: auto;
+      padding-left: 10px;
+      margin-top: 24px;
+      border-bottom: 1px solid black;
+    }
+
+
+    .MbForm > textarea{
+      height: 174px;
+      width: 80vw;
+      margin-top: 24px;
+      border-radius: 18px ;
+      border: 1px solid black;
+      padding:20px ;
+      
+    }
+
+    
+
+    .GetInTouchMb{
+      font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: -0.06em;
+text-align: center;
+
+    }
+
+    .GetInTouchMbPara{
+      font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: -0.06em;
+text-align: center;
+
+    }
+    .MbFormImage{
+      margin: auto;
+    }
+
+    .SupportEmailText{
+      font-family: Montserrat;
+font-size: 10px;
+font-weight: 600;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+
+    .submitFormBtn{
+      width: 30vw !important;
+      border: none;
+      margin-bottom: 50px !important;
+    }
+
     }

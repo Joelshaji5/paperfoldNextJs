@@ -284,6 +284,10 @@ padding-left: 8px;
 }
 
 
+.HomeCDiv{
+  height: auto;
+}
+
 .Servicetxt{
   transform: none;
   color: #1E1E1E;
@@ -293,7 +297,7 @@ padding-left: 8px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 30vh;
+  margin-top: 0vh;
   margin-bottom: 0;
   letter-spacing: -2.4px;}
 

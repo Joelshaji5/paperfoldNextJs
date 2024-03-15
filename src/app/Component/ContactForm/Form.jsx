@@ -4,6 +4,8 @@
 import React, { useRef, useState } from "react";
 import "../../Style/Foorm.css";
 import emailjs from "@emailjs/browser";
+import Image from 'next/image'
+
 
 function Form() {
   const form = useRef();
@@ -52,6 +54,10 @@ function Form() {
   };
 
   return (
+
+<div className="FormMainHeroDivBoth">
+
+    
     <div className="formMainDiv pb-20">
       <div className="flex justify-center">
         <div>
@@ -165,6 +171,59 @@ function Form() {
           </form>
         </div>
       </div>
+    </div>
+
+    <div className="MbForm">
+    <h1 className="GetInTouchMb">Get in touch</h1>
+    <p className="GetInTouchMbPara" >We are excited to provide you solutions!</p>
+    <Image
+      src="/FormImgMb.png"
+      width={266}
+      height={201}
+      alt="Paperfold Form Image"
+      className="MbFormImage"
+    />
+<div className="FormDivMb">
+<form className="MbForm" ref={form} onSubmit={sendEmail}>
+      <input type="text" name="First_Name"  placeholder="First Name"/>
+
+      <input type="text" name="First_Name" placeholder="Last Name" />
+
+      <input type="text" name="Company" placeholder="Company" />
+
+      <input type="text" name="Job_Title" placeholder="Job Title"/>
+
+      <input type="email" name="user_email" placeholder="Email Address"/>
+
+      <textarea name="message" placeholder="How can we help you?" />
+
+      <p className="SupportEmailText">You can also email us directly at support@paperfold.in</p>
+
+      <div className="ml-1 mt-4">
+                <input type="checkbox" id="scales" name="scales" />
+                <label for="scales" className="labePrivacyPolicy">
+                  I agree to the privacy policy.
+                </label>
+              </div>
+
+              <div className="ml-1 mt-2 ">
+                <input type="checkbox" id="horns" name="horns" />
+                <label for="horns" className="labelSubscriveForm">
+                  Subscribe me to Paperfold’s latest thought leadership, blogs
+                  and updates.
+                </label>
+                </div>
+      <input type="submit" value="Send" className="submitFormBtn"/>
+
+
+    </form>
+
+    </div>
+
+
+
+    </div>
+
     </div>
   );
 }
