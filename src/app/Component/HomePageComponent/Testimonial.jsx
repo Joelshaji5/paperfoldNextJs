@@ -21,7 +21,7 @@ function Testimonial() {
             <div className={showData === 1 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
               <h1>Abhinav, Nanoswab Solutions.</h1>
               <p>
-              We Appreciate the amount of efforts Paperfold put to develop out technical infra. It's been 3 years and we are up and running smoothly.
+              We Appreciate the amount of efforts Paperfold put to develop out technical infra. It&apos;s been 3 years and we are up and running smoothly.
               </p>
             </div>
           </div>
