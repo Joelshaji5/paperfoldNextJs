@@ -55,7 +55,7 @@ const ServiceList = () => {
       {activeService === 'UI/UX Design' && (
         <div>
           {/* Content for "UI/UX Design" */}
-          <h1>Special content for UI/UX Design</h1>
+          {/* <h1> UI/UX Design</h1> */}
         </div>
       )}
 

@@ -105,7 +105,7 @@ padding-left: 8px;
   padding: 0;
   /* overflow: hidden; */
   height: 70vh;
-  margin-top: 10vh;
+  margin-top: 4vh;
 
   list-style-type: none;
   width: 100%;
@@ -273,6 +273,20 @@ padding-left: 8px;
   flex-direction: column;
 }
 
+.cardCloseService{
+  color: #FFF;
+text-align: center;
+/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);   */
+font-family: Inter;
+font-size: 18px !important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 8px;
+
+}
+
+
 
 .HomeCDiv{
   height: auto;
@@ -352,15 +366,5 @@ width: 90%;
   
 
 }
-.cardCloseService{
-  font-size: 18px;
-    white-space: nowrap;
-    position: absolute;
-    z-index: 30;
-    opacity: 1;
-    transition: top 0.35s, opacity 0.15s;
-    transform-origin: 0 0;
-    text-transform: uppercase;
-    font-size: 25px;
-}
+
 }
