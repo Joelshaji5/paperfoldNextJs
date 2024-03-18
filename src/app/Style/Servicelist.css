@@ -25,7 +25,7 @@
 
 .activeService{
     border: 2px solid #000;
-    scale: 1.1;
+    scale: 1.05;
     transition: all 1s ;
 }
 
@@ -141,6 +141,7 @@ font-weight: 600;
     font-size: 38px;
     margin-top: 20px;
     font-weight: 600;
+    line-height: 40px;
 }
 
 .serviceContentP

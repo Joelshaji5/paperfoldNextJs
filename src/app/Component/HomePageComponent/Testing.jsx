@@ -14,11 +14,11 @@ const Navbar = () => {
       link: "/",
       name: "home"
     },
-    {
-      id: 2,
-      link: "Products",
-      name: "Our Products"
-    },
+    // {
+    //   id: 2,
+    //   link: "Products",
+    //   name: "Our Products"
+    // },
     {
       id: 3,
       link: "services",
