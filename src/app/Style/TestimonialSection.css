@@ -14,7 +14,7 @@ padding-top: 100px;
     border-top: dotted 10px white;
     height: 1px;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
 
 
 }
@@ -79,7 +79,7 @@ margin: auto;
 
 .activeTestimonial{
     display: block;
-    height: 326px;
+    /* height: 326px; */
     width: 414px;
     border: 1px solid black;
     position: relative;

@@ -5,6 +5,16 @@
 //   font-size: 16px;
 // } */
 
+
+.AccordianH2{
+  font-family: Inter;
+font-size: 48px;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: -0.06em;
+
+}
+
 .HomeCDiv{
   width: 75vw;
   margin-right: 10%;
@@ -31,7 +41,7 @@ text-align: start;
 text-align: center;
 /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);   */
 font-family: Inter;
-font-size: 24px;
+font-size: 24px !important;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -157,27 +167,6 @@ padding-left: 8px;
 
 
 
-.AccordianH2 {
-  color: #FFF;
-  text-align: center;
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: -2.88px;
-  width: 450px;
-
-  @media only screen and (min-width: 768px) {
-    font-size: 48px;
-    line-height: 48px;
-  }
-
-  @media only screen and (min-width: 1280px) {
-    font-size: 64px;
-    line-height: 64px;
-  }
-}
 
 .cardCloseService {
   white-space: nowrap;
@@ -188,6 +177,7 @@ padding-left: 8px;
   transform-origin: 0 0;
   text-transform: uppercase;
   font-size: 25px;
+  
 
 
 
@@ -364,6 +354,13 @@ width: 90%;
 }
 .cardCloseService{
   font-size: 18px;
-
+    white-space: nowrap;
+    position: absolute;
+    z-index: 30;
+    opacity: 1;
+    transition: top 0.35s, opacity 0.15s;
+    transform-origin: 0 0;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 }

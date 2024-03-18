@@ -1,0 +1,71 @@
+
+
+.baseTableWeb{
+    width: 20vw;
+    font-family: Montserrat;
+    font-size: 18px;
+    border-radius: 10px;
+   
+    background: #F2F2F2;
+    box-shadow: 3px 4px 7.8px 0px rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-top: 45px;
+}
+
+.servicetableHeading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #1E1E1E;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.servicetableLi{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.WebMainDiv{
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+
+    .WebMainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .baseTableWeb{
+        width: 80vw;
+        font-family: Montserrat;
+        font-size: 13px;
+        border-radius: 10px;
+        margin: auto;
+       
+        background: #F2F2F2;
+        box-shadow: 3px 4px 7.8px 0px rgba(0, 0, 0, 0.25);
+        padding-bottom: 20px;
+        padding-right: 10px;
+        margin-top: 45px;
+    }
+
+
+    .baseTable {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }  }

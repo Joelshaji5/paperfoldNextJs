@@ -2,60 +2,158 @@
   "Web Development": {
     "name": "Web Development",
     "content1": "Are you on the lookout for top-tier website development services to craft online identity for your business or startup? Waste no time and choose Paperfold – we pride ourselves on being a leading website development company that ensures the best results at affordable prices. We are dedicated to transforming your digital aspirations into a tangible reality. Our seasoned team of developers stands at the forefront of technological innovation, committed to delivering websites that seamlessly blend aesthetics with functionality. Our Expertise Encompasses: Custom Website Development, E-Commerce Excellence, Responsive Design, Content Management Systems (CMS), API Integration, Website Maintenance and Support. Fast, Secure, SEO & Mobile Friendly Website Development Services worldwide.",
-    "base": {
-      "planName": "Base Plan",
+    "BackEnd": {
+      "planName": "BackEnd",
       "features": [
-        "Logo",
-        "Slider",
-        "Dynamic Website",
-        "1 Contact Form",
-        "Free SSL",
-        "Testimonials",
-        "Gallery Section",
-        "Chat Feature",
-        "Social Profile Link",
-        "Facebook Page Creation",
-        "Click to Call/Email",
-        "Mobile Responsive",
-        "Easy to Edit",
-        "Login Details Will Be Given",
-        "Delivery*"
+        {
+          "text": "Node JS",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Phython",
+          "image": "slider.jpg"
+        }, {
+          "text": "PHP",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Slider",
+          "image": "slider.jpg"
+        }, {
+          "text": "PHP",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "MySQL",
+          "image": "slider.jpg"
+        }, {
+          "text": "Laravel",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "django",
+          "image": "slider.jpg"
+        },
+        {
+          "text": "MongoDB",
+          "image": "slider.jpg"
+        },
+        {
+          "text": "Cassandra",
+          "image": "slider.jpg"
+        }
+  
       ]
     },
-    "medium": {
-      "planName": "Standard Plan",
+    "FrontEnd": {
+      "planName": "Front End",
       "features": [
-        "Logo",
-        "Slider",
-        "Dynamic Website",
-        "1 Contact Form",
-        "Free SSL",
-        "Testimonials",
-        "Gallery Section",
-        "Chat Feature",
-        "Social Profile Link",
-        "Facebook Page Creation",
-        "Click to Call/Email",
-        "Mobile Responsive",
-        "Easy to Edit",
-        "Login Details Will Be Given",
-        "Delivery*"
+        {
+          "text": "HTML",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "CSS",
+          "image": "slider.jpg"
+        }, {
+          "text": "Bootstrap",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "React",
+          "image": "slider.jpg"
+        }, {
+          "text": "JavaScript",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Saas",
+          "image": "slider.jpg"
+        }, {
+          "text": "Android studio",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Flutter",
+          "image": "slider.jpg"
+        },
+        {
+          "text": "Figma",
+          "image": "slider.jpg"
+        },
+        {
+          "text": "Adobe XD",
+          "image": "slider.jpg"
+        }
+  
       ]
     },
-    "pro": {
-      "planName": "Pro Plan",
+    "CMS": {
+      "planName": "CMS",
       "features": [
-        "Up to 50 Products",
-        "Logo",
-        "Content – Free",
-        "WhatsApp Chat Integration",
-        "Social Media Profiles Integration",
-        "Social Profile Link",
-        "WordPress Login Details Will be Given",
-        "Payment Gateway",
-        "Call/Email/Chat Support"
+        {
+          "text": "WordPress",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "WooCommerce",
+          "image": "slider.jpg"
+        }, {
+          "text": "Shopify",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Magento",
+          "image": "slider.jpg"
+        }, {
+          "text": "Strapi",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Saas",
+          "image": "slider.jpg"
+        }, {
+          "text": "Android studio",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Flutter",
+          "image": "slider.jpg"
+        },
+        {
+          "text": "Figma",
+          "image": "slider.jpg"
+        },
+        {
+          "text": "Adobe XD",
+          "image": "slider.jpg"
+        }
+  
       ]
     },
+
+    "ServerCloud": {
+      "planName": "Server & Cloud",
+      "features": [
+        {
+          "text": "AWS",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Google Cloud Platform",
+          "image": "slider.jpg"
+        }, {
+          "text": "Digital Ocean",
+          "image": "logo.jpg"
+        },
+        {
+          "text": "Cloudinary",
+          "image": "slider.jpg"
+        }
+  
+      ]
+    },
+    
     "services": [
       {
         "name": "Ecommerce Website",
