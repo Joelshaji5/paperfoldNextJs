@@ -18,7 +18,7 @@ const UiUx = () => {
             <div className='ResDiv'>
                 <h1 className="ResearchH"> Information Architecture</h1>
                 <p className="ResearchP">
-Information architecture organizes digital content with finesse, shaping seamless pathways for users to navigate and access information effortlessly. It's the blueprint that crafts clarity in complexity, optimizing user journeys for maximum usability.</p>
+Information architecture organizes digital content with finesse, shaping seamless pathways for users to navigate and access information effortlessly. It&apos;s the blueprint that crafts clarity in complexity, optimizing user journeys for maximum usability.</p>
             </div>
             <div className='ResDiv' >
             <h1 className="ResearchH">Wireframing and Prototyping</h1>
@@ -42,21 +42,21 @@ Information architecture organizes digital content with finesse, shaping seamles
             <div className='ResDiv' >
             <h1 className="ResearchH">Usability Testing</h1>
                 <p className="ResearchP">        
-Usability testing invites users to explore digital products firsthand, uncovering insights that refine interfaces for intuitive and satisfying experiences. It's like having a conversation with users, ensuring designs resonate and interactions flow seamlessly.
+Usability testing invites users to explore digital products firsthand, uncovering insights that refine interfaces for intuitive and satisfying experiences. It&apos;s like having a conversation with users, ensuring designs resonate and interactions flow seamlessly.
                 </p>
             </div>
 
             <div className='ResDiv'>
             <h1 className="ResearchH">Accessibility</h1>
                 <p className="ResearchP">     
-                Accessibility is about making digital content open and welcoming to everyone, ensuring that all users, regardless of ability, can easily navigate and engage with online platforms. It's like ensuring that every door is open and accessible, allowing everyone to participate fully in the digital world.   
+                Accessibility is about making digital content open and welcoming to everyone, ensuring that all users, regardless of ability, can easily navigate and engage with online platforms. It&apos;s like ensuring that every door is open and accessible, allowing everyone to participate fully in the digital world.   
                 </p>
             </div>
 
             <div className='ResDiv'>
             <h1 className="ResearchH">Front-end Development</h1>
                 <p className="ResearchP">     
-                Front-end development gives digital designs a heartbeat, creating interfaces users directly interact with. It's like crafting the welcoming entrance of a building, ensuring users have a smooth and engaging experience right from the start.
+                Front-end development gives digital designs a heartbeat, creating interfaces users directly interact with. It&apos;s like crafting the welcoming entrance of a building, ensuring users have a smooth and engaging experience right from the start.
                 </p>
             </div>
         </div>
@@ -74,14 +74,14 @@ Usability testing invites users to explore digital products firsthand, uncoverin
               ></Image> 
                               </div>
                 <div>
-                    <h1 className='DesignPara' ><span className='ExpSpan'>Designing with emotional intelligence  </span><br></br> is like crafting a warm embrace, welcoming visitors into a truly immersive experience. Our tailored solutions prioritize adaptability, accessibility, and seamless performance across all devices, ensuring every user feels valued. Ready to enrich your online presence? Reach out for a call back today, and let's create something truly exceptional together.</h1>
+                    <h1 className='DesignPara' ><span className='ExpSpan'>Designing with emotional intelligence  </span><br></br> is like crafting a warm embrace, welcoming visitors into a truly immersive experience. Our tailored solutions prioritize adaptability, accessibility, and seamless performance across all devices, ensuring every user feels valued. Ready to enrich your online presence? Reach out for a call back today, and let&apos;s create something truly exceptional together.</h1>
                 </div>
             </div>
 
 {/* explore */}
 
             <div className='ExploreDiv'>
-                <h1 className='ExploreH'>Exploring ideas for a brighter tomorrow. <br></br>Let's innovate sustainably and thrive together.</h1>
+                <h1 className='ExploreH'>Exploring ideas for a brighter tomorrow. <br></br>Let&apos;s innovate sustainably and thrive together.</h1>
                 <button className='ExploreBtn'>Contact Us</button>
             </div>
 
