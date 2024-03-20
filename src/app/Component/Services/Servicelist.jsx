@@ -36,7 +36,7 @@ const ServiceList = () => {
     <div className='serviceMainDiv pt-20'>
       <div id="myDIV">
         {Services.map((serviceName, index) => (
-          <button key={index}
+          <button key={serviceName}
             className={`name ml-2 btn ${activeService === serviceName ? 'active' : ''}`}
             onClick={() => handleButtonClick(serviceName)}
           >
