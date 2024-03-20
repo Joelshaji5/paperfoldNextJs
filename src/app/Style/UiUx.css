@@ -1,0 +1,94 @@
+.ExploreDiv{
+    background-color: blue;
+    height: 60vh;
+    width: 100vw;
+}
+
+.ExploreH{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    padding-top: 15vh;
+    font-weight: 700;
+}
+
+.ExploreBtn{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+top: 829px;
+left: 236px;
+gap: 0px;
+opacity: 0px;
+border: 1px solid #868686;
+background: linear-gradient(180deg, #FFFFFF 0%, #C9C9C9 100%);
+padding-inline: 42px;
+padding-top: 12px;
+padding-bottom: 12px;
+border-radius: 25px;
+margin: auto;
+display: block;
+margin-top: 70px;
+}
+
+.ProcessFlexDiv{
+    background-color: rgb(22, 22, 224);
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ResearchH{
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 1.75rem 0 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ResearchP{
+    color: #fff;
+    font-size: .875rem;
+    max-width: 18rem;
+margin: auto;
+    text-align: center;
+    }
+    
+
+.ResDiv{
+    width: 30%;
+}
+
+.DesignDiv{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.DesignDivImg{
+    margin-left: 70%;
+    /* width: 1000px; */
+}
+
+.DesignPara{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 20%;
+    margin-top: 5vh;
+}
+
+.ExpSpan{
+    font-size: 42px;
+    line-height: 45px;
+    color: blue;
+    font-weight: 700;
+}
+.DesignPara{
+    font-size: 22px;
+}

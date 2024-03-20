@@ -4,6 +4,7 @@ import Data from "../Constent/Priceinglist.json";
 import "../../Style/Servicelist.css";
 import { Inter } from '@next/font/google'; // Import Inter from '@next/font/google'
 import WebDev from './WebDev';
+import UiUx from './UiUx';
 const inter = Inter({
   weight: '400',
   subsets: ['latin'],
@@ -54,8 +55,8 @@ const ServiceList = () => {
 
       {activeService === 'UI/UX Design' && (
         <div>
-          {/* Content for "UI/UX Design" */}
-          {/* <h1> UI/UX Design</h1> */}
+          
+          <UiUx />
         </div>
       )}
 

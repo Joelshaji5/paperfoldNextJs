@@ -28,8 +28,8 @@ function Hero() {
          className="hero-img"
                 height={500}
                 width={285}
-                alt="burger menu"
-                src="/hero-home.png"
+                alt="Paperfold Logo"
+                src="/PaperfoldDarkLogo.png"
               ></Image>        
       </div>
     </div>  )

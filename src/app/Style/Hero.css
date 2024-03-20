@@ -1,4 +1,17 @@
 
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+      scale: 2;
+    }
+  }
+  
+ 
+
+
     .btndiv{
         width: 100%;
         justify-content: start;
@@ -27,7 +40,7 @@ align-items: flex-start;
     .hero-text{
         color: #1E1E1E;
 font-family: Inter;
-font-size: 96px;
+font-size: 86px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -46,7 +59,7 @@ justify-content: center;
     .hero-img{
         width: 285px;
 height: 500px;
-transform: rotate(-30deg);
+/* transform: rotate(-1800deg); */
 
     }
 
