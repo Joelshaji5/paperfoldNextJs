@@ -119,7 +119,7 @@ color: #FFFFFF;
    border-radius: 41px;
     gap: 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
+    opacity: 1;
     border: 1px solid #614A7A;
     padding: 15px;
     width: 20%;
@@ -258,6 +258,7 @@ margin-left: 21%;
     .baseTableWebDev{
         margin: auto;
         width: 85%;
+        opacity: 1;
         margin-bottom: 20px;
     }
 
