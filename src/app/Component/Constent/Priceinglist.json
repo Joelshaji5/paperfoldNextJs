@@ -7,42 +7,29 @@
       "features": [
         {
           "text": "Node JS",
-          "image": "logo.jpg"
+          "image": "/BackEnd1.png"
         },
         {
           "text": "Phython",
-          "image": "slider.jpg"
+          "image": "BackEnd2.png"
         }, {
           "text": "PHP",
-          "image": "logo.jpg"
+          "image": "BackEnd3.png"
         },
         {
           "text": "Slider",
-          "image": "slider.jpg"
+          "image": "BackEnd4.png"
         }, {
           "text": "PHP",
-          "image": "logo.jpg"
+          "image": "BackEnd5.png"
         },
         {
           "text": "MySQL",
-          "image": "slider.jpg"
+          "image": "BackEnd6.png"
         }, {
           "text": "Laravel",
-          "image": "logo.jpg"
-        },
-        {
-          "text": "django",
-          "image": "slider.jpg"
-        },
-        {
-          "text": "MongoDB",
-          "image": "slider.jpg"
-        },
-        {
-          "text": "Cassandra",
-          "image": "slider.jpg"
+          "image": "BackEnd7.png"
         }
-  
       ]
     },
     "FrontEnd": {
@@ -50,40 +37,28 @@
       "features": [
         {
           "text": "HTML",
-          "image": "logo.jpg"
+          "image": "/FrontEnd1.png"
         },
         {
           "text": "CSS",
-          "image": "slider.jpg"
+          "image": "/FrontEnd2.png"
         }, {
           "text": "Bootstrap",
-          "image": "logo.jpg"
+          "image": "/FrontEnd3.png"
         },
         {
           "text": "React",
-          "image": "slider.jpg"
+          "image": "/FrontEnd4.png"
         }, {
           "text": "JavaScript",
-          "image": "logo.jpg"
+          "image": "/FrontEnd5.png"
         },
         {
           "text": "Saas",
-          "image": "slider.jpg"
+          "image": "/FrontEnd6.png"
         }, {
           "text": "Android studio",
-          "image": "logo.jpg"
-        },
-        {
-          "text": "Flutter",
-          "image": "slider.jpg"
-        },
-        {
-          "text": "Figma",
-          "image": "slider.jpg"
-        },
-        {
-          "text": "Adobe XD",
-          "image": "slider.jpg"
+          "image": "/FrontEnd7.png"
         }
   
       ]
@@ -93,40 +68,28 @@
       "features": [
         {
           "text": "WordPress",
-          "image": "logo.jpg"
+          "image": "/Cms1.png"
         },
         {
           "text": "WooCommerce",
-          "image": "slider.jpg"
+          "image": "/Cms2.png"
         }, {
           "text": "Shopify",
-          "image": "logo.jpg"
+          "image": "/Cms3.png"
         },
         {
           "text": "Magento",
-          "image": "slider.jpg"
+          "image": "/Cms4.png"
         }, {
           "text": "Strapi",
-          "image": "logo.jpg"
+          "image": "/Cms5.png"
         },
         {
           "text": "Saas",
-          "image": "slider.jpg"
+          "image": "/Cms6.png"
         }, {
           "text": "Android studio",
-          "image": "logo.jpg"
-        },
-        {
-          "text": "Flutter",
-          "image": "slider.jpg"
-        },
-        {
-          "text": "Figma",
-          "image": "slider.jpg"
-        },
-        {
-          "text": "Adobe XD",
-          "image": "slider.jpg"
+          "image": "/Cms7.png"
         }
   
       ]
@@ -137,18 +100,18 @@
       "features": [
         {
           "text": "AWS",
-          "image": "logo.jpg"
+          "image": "Sc1.png"
         },
         {
           "text": "Google Cloud Platform",
-          "image": "slider.jpg"
+          "image": "Sc2.png"
         }, {
           "text": "Digital Ocean",
-          "image": "logo.jpg"
+          "image": "Sc3.png"
         },
         {
           "text": "Cloudinary",
-          "image": "slider.jpg"
+          "image": "Sc4.png"
         }
   
       ]

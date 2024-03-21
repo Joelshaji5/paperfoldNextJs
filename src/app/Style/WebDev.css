@@ -1,3 +1,129 @@
+.WebDevMainDivList{
+    background: #0E1034;
+margin-top: 50px;
+}
+
+.WebDevMainDivListH{
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 36.38px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #FFFFFF;
+padding-top: 150px;
+width: 80%;
+margin: auto;
+}
+.WebDevMainDivListP{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24.38px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 105px;
+    width: 80%;
+margin: auto;
+margin-top: 10px;
+
+    
+
+}
+
+
+.EcomWebDivMain{
+    display: flex;
+
+}
+
+.EcomWebDivMain > div {
+    flex: 1;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .UIUXDivImg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .EcomWebDivMainDiv2H{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 43.88px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #FFFFFF;
+  }
+
+.EcomWebDivMainDiv2P{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.EcomWebDivMainH{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 43.88px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.LiImgBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.EcomWebDivMainP{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #FFFFFF;
+
+}
+  
+.baseTableWebDev{
+
+   border-radius: 41px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #614A7A;
+    padding: 15px;
+    width: 20%;
+    background: linear-gradient(180deg, rgba(207, 151, 217, 0.245) 0%, rgba(110, 80, 115, 0.03) 100%);
+
+}
+.EcomWebDivMain2{
+    margin-left: 10%;
+}
+
+
+.WebMainDivWebDesign{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+  .EcomWebDivMainDiv2{
+    margin-right: 10%;
+  }
+
 
 
 .baseTableWeb{
@@ -13,13 +139,13 @@
     margin-top: 45px;
 }
 
-.servicetableHeading{
+.servicetableHeadingNew{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 10px;
     font-size: 24px;
-    color: #1E1E1E;
+    color: #f2f2f2;
 font-family: Inter;
 font-size: 36px;
 font-style: normal;

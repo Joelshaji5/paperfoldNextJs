@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState } from 'react';
 import Data from "../Constent/Priceinglist.json";
 import "../../Style/Servicelist.css";
@@ -55,7 +55,6 @@ const ServiceList = () => {
 
       {activeService === 'UI/UX Design' && (
         <div>
-          
           <UiUx />
         </div>
       )}
@@ -116,18 +115,23 @@ const ServiceList = () => {
         </div>
       )}
 
-      <h1 className='serviceContent'>{serviceData.content1}</h1>
+      {/* This section will be hidden for Web Development and UI/UX Design */}
+      {activeService !== 'Web Development' && activeService !== 'UI/UX Design' && (
+        <div>
+          <h1 className='serviceContent'>{serviceData.content1}</h1>
 
-      <div className='mt-14'>
-        {serviceData.services?.map((ServiceQuestion, index) => {
-          return (
-            <div key={index}>
-              <h1 className='serviceContentH'>{ServiceQuestion.name}</h1>
-              <p className='serviceContentP'>{ServiceQuestion.content}</p>
-            </div>
-          );
-        })}
-      </div>
+          <div className='mt-14'>
+            {serviceData.services?.map((ServiceQuestion, index) => {
+              return (
+                <div key={index}>
+                  <h1 className='serviceContentH'>{ServiceQuestion.name}</h1>
+                  <p className='serviceContentP'>{ServiceQuestion.content}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

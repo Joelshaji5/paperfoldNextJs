@@ -1,12 +1,37 @@
 .ExploreDiv{
-    background-color: blue;
+    background-color:#045DC2;
     height: 60vh;
     width: 100vw;
+    color: white;
+}
+
+.UIUXDivImg{
+    margin: auto;
+    margin-bottom:  70px;
+    margin-right: 10%;
+    /* margin-top: 5%; */
+    border-radius: 180%;
+    position: relative;
+    margin-left: 20px;
+    z-index: 1;
+    
+}
+
+.UIUXDivImg2{
+    margin: auto;
+    margin-bottom:  70px;
+    margin-right: 10%;
+    /* margin-top: 5%; */
+    border-radius: 180%;
+    position: relative;
+    margin-top: -100px;
+    margin-right: -20px;
+    z-index: 1;
 }
 
 .ExploreH{
     text-align: center;
-    color: white;
+    /* background: #1E1E1E; */
     font-size: 36px;
     padding-top: 15vh;
     font-weight: 700;
@@ -33,45 +58,71 @@ margin-top: 70px;
 }
 
 .ProcessFlexDiv{
-    background-color: rgb(22, 22, 224);
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 .ResearchH{
-    color: #fff;
-    font-family: Montserrat, sans-serif;
-    font-size: 1.25rem;
-    font-weight: 800;
-    margin: 1.75rem 0 0.5rem;
-    text-align: center;
-    text-transform: uppercase;
+    color: #FFF;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.44px;
+    padding-top: 50px;
+    margin-left: 105px;
+
+    
 }
 
 .ResearchP{
-    color: #fff;
-    font-size: .875rem;
-    max-width: 18rem;
-margin: auto;
-    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    margin-bottom: 58px;
+    margin-left: 105px;
+    
+    }
+
+
+    .ProcessDiv{
+        background: #C0DBF7;
     }
     
 
 .ResDiv{
-    width: 30%;
+    width: 80%;
+    margin-bottom: 48px;
+    display: flex;
+    border-radius: 30px;
+opacity: 0.99;
+background: #0A63C5;
+}
+
+.ResDivInner{
+    display: flex;
+    flex-direction: column;
 }
 
 .DesignDiv{
     display: flex;
     margin-top: 100px;
     margin-bottom: 100px;
+    z-index: 10 !important;
 }
 
-.DesignDivImg{
+.DesignDivImg2{
     margin-left: 70%;
     /* width: 1000px; */
 }
@@ -83,6 +134,10 @@ margin: auto;
     margin-top: 5vh;
 }
 
+.DesignDivWeb2{
+    width: 90vw;
+}
+
 .ExpSpan{
     font-size: 42px;
     line-height: 45px;
@@ -91,4 +146,41 @@ margin: auto;
 }
 .DesignPara{
     font-size: 22px;
+}
+
+.DesignDivWeb{
+    background-image: url("/DesignBf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15%;
+    overflow: hidden;
+}
+
+.DesignH{
+    color: #FEFFFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.08px;
+padding-top: 184px;
+margin-left: 18%;
+/* width: 50%; */
+}
+
+.DesignPa{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.72px;
+margin-left: 18%;
+/* width: 60%; */
+
 }

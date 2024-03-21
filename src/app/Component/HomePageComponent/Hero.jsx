@@ -9,9 +9,9 @@ function Hero() {
       <div className="left-hero">
         <div className="herotextdiv">
           <h2 className="hero-text flex text-left ">
-            We Design. <br />
-            We Develop. <br />
-            You Dominate.
+            We Design <br />
+            We Develop <br />
+            You Dominate... 
           </h2>
           <div className="flex mt-7 btndiv">
             <button  className="btn1"><a href="/contact" className="btn1">Contact</a>
