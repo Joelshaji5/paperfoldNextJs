@@ -159,18 +159,14 @@ background: #0A63C5;
     overflow: hidden;
 }
 
-.DesignH{
-    color: #FEFFFF;
-font-family: Montserrat;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -1.08px;
-padding-top: 184px;
-margin-left: 18%;
-/* width: 50%; */
+.WebDivImg2Dev{
+    border-radius: 180%;
+    position: relative;
+    margin-top: -140px;
+    right: -70px;
 }
+
+
 
 .DesignPa{
     color: #FFF;
@@ -180,7 +176,57 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: -0.72px;
-margin-left: 18%;
+margin-left: 21%;
 /* width: 60%; */
 
+}
+
+@media screen and (max-width: 600px) {
+
+    .DesignDivWeb{
+        background-image: url("/UiBackBot.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15%;
+        overflow: hidden;
+    }
+
+
+    .ResearchH{
+        margin: 10px;
+        font-size: 26px;
+        line-height:30px;
+    }
+
+    .ResearchP{
+        margin: 10px;
+        font-size: 16px;
+        line-height:22px;
+    }
+
+    .DesignDivWeb{
+        flex-direction: column;
+    }
+    
+    .UIUXDivImg2{
+        display: block;
+        margin-top: 20px !important;
+        right: 0 !important;
+        margin: auto !important;
+    }
+
+    .ResDiv{
+        flex-direction: column;
+    }
+    
+    .UIUXDivImg{
+        margin: auto;
+    }
+
+    .ExploreH{
+        font-size: 20px;
+    }
 }

@@ -15,6 +15,22 @@ padding-top: 150px;
 width: 80%;
 margin: auto;
 }
+
+.webDivImg{
+    margin-left: 20%;
+}
+
+.WebDivImg2{
+    background-image: url("/DevBf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15%;
+    overflow: hidden;
+}
+
 .WebDevMainDivListP{
     font-family: Montserrat;
     font-size: 20px;
@@ -124,6 +140,17 @@ color: #FFFFFF;
     margin-right: 10%;
   }
 
+  .DesignDivWebnew{
+    background-image: url("/DevBfMb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5% !important;
+    overflow: hidden;
+}
+
 
 
 .baseTableWeb{
@@ -168,7 +195,35 @@ text-align: left;
     display: flex;
 }
 
+.DesignH{
+    color: #FEFFFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.08px;
+padding-top: 184px;
+margin-left: 21%;
+/* width: 50%; */
+}
+
 @media screen and (max-width: 600px) {
+
+    .DesignH{
+        font-size: 26px !important;
+        line-height:30px !important;
+        margin: auto;
+        padding-top: 50px !important;
+        margin-left: 5% !important;
+        
+    }
+
+    .DesignPa{
+        margin-left: 5% !important;
+        font-size: 16px !important;
+        line-height:22px !important;
+    }
 
     .WebMainDiv{
         display: flex;
@@ -194,4 +249,90 @@ text-align: left;
         width: 80%;
         margin: auto;
         margin-bottom: 50px;
-    }  }
+    }  
+
+    .WebMainDivWebDesign{
+        display: block;
+    }
+
+    .baseTableWebDev{
+        margin: auto;
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    .EcomWebDivMain{
+        flex-direction: column;
+    }
+
+    .EcomWebDivMain > div{
+        width: auto;
+    }
+
+    .webDivImg{
+        margin: auto;
+    }
+
+    .EcomWebDivMain2{
+        margin: auto;
+    }
+    
+    .WebDevMainDivListH{
+        font-size: 26px;
+        line-height:30px;
+        padding-top: 75px;
+    }
+
+    .WebDevMainDivListP{
+        font-size: 16px;
+        line-height:22px;
+    }
+    .EcomWebDivMainDiv2H{
+        font-size: 26px;
+        line-height:30px;
+    }
+
+    .EcomWebDivMainH{
+        font-size: 26px;
+        line-height:30px;
+    }
+
+.EcomWebDivMainP{
+    font-size: 16px;
+    line-height:22px;
+}
+
+    .EcomWebDivMainDiv2P{
+        font-size: 16px;
+        line-height:22px;
+    }
+
+
+    .DesignDivWebnew{
+        flex-direction: column;
+    }
+
+    .WebDivImg2Dev{
+        margin-top: 10px;
+        margin: auto;
+
+    }
+    
+    .WebDivImg2Dev{
+        display: block;
+        margin-top: 20px !important;
+        right: 0 !important;
+    }
+
+    .WebDivImg2{
+        background-image: url("/DevBfMb.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15%;
+        overflow: hidden;
+    }
+
+}

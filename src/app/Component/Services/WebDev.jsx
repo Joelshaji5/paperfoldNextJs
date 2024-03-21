@@ -20,7 +20,7 @@ const WebDev = () => {
 <div className="EcomWebDivMain">
       <div >
       <Image
-         className="UIUXDivImg"
+         className="webDivImg"
                 height={330}
                 width={330}
                 alt=""
@@ -43,7 +43,7 @@ const WebDev = () => {
       </div>
       <div >
       <Image
-         className="UIUXDivImg"
+         className="webDivImg"
                 height={330}
                 width={330}
                 alt=""
@@ -56,7 +56,7 @@ const WebDev = () => {
     <div className="EcomWebDivMain">
       <div >
       <Image
-         className="UIUXDivImg"
+         className="webDivImg"
                 height={330}
                 width={330}
                 alt=""
@@ -132,7 +132,21 @@ const WebDev = () => {
 
     </div>
 
-
+    <div className="DesignDivWebnew">
+        <div className="DesignDivWeb2">
+          <h1 className="DesignH"> Designing with emotional intelligence</h1>
+          <p className="DesignPa">Looking for a top web developer? Websites play an integral role in sales and marketing. A bespoke website can elevate your online presence, helping establish your brand’s credibility and increase business opportunities. Reach more people with a sophisticated website and work with a reliable web development partner.</p>
+        </div>
+        <div>
+          <Image
+            className="WebDivImg2Dev"
+            height={717}
+            width={1100}
+            alt=""
+            src="/WebImgDev.png"
+          ></Image>
+        </div>
+      </div>
 
 
 
