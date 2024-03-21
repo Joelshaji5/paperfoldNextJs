@@ -63,8 +63,6 @@ const UiUx = () => {
               src="/Ux33.png"
             ></Image>
           </div>
-         
-
           <div className="ResDiv">
             <div className="ResDivInner">
               <h1 className="ResearchH">Wireframing and Prototyping</h1>
@@ -76,7 +74,6 @@ const UiUx = () => {
                 functionality and user satisfaction.
               </p>
             </div>
-
             <Image
               className="UIUXDivImg"
               height={170}
@@ -85,19 +82,15 @@ const UiUx = () => {
               src="/Ux4.png"
             ></Image>
           </div>
-        
-         
           <div className="ResDiv">
-          
-                        <div className="ResDivInner">
-
-            <h1 className="ResearchH">Interaction Design</h1>
-            <p className="ResearchP">
-              Interaction design breathes life into digital experiences,
-              balancing functionality and elegance to create intuitive
-              interfaces that feel like a natural extension of the user,
-              fostering meaningful connections and effortless navigation.
-            </p>
+            <div className="ResDivInner">
+              <h1 className="ResearchH">Interaction Design</h1>
+              <p className="ResearchP">
+                Interaction design breathes life into digital experiences,
+                balancing functionality and elegance to create intuitive
+                interfaces that feel like a natural extension of the user,
+                fostering meaningful connections and effortless navigation.
+              </p>
             </div>
             <Image
               className="UIUXDivImg"
@@ -108,16 +101,14 @@ const UiUx = () => {
             ></Image>
           </div>
           <div className="ResDiv">
-         
-                        <div className="ResDivInner">
-
-            <h1 className="ResearchH">Responsive Design</h1>
-            <p className="ResearchP">
-              Responsive design ensures that websites and apps adapt smoothly to
-              different devices and screen sizes, guaranteeing users a
-              consistent and user-friendly experience, ultimately making their
-              interaction with digital platforms seamless and enjoyable.
-            </p>
+            <div className="ResDivInner">
+              <h1 className="ResearchH">Responsive Design</h1>
+              <p className="ResearchP">
+                Responsive design ensures that websites and apps adapt smoothly to
+                different devices and screen sizes, guaranteeing users a
+                consistent and user-friendly experience, ultimately making their
+                interaction with digital platforms seamless and enjoyable.
+              </p>
             </div>
             <Image
               className="UIUXDivImg"
@@ -127,31 +118,24 @@ const UiUx = () => {
               src="/Ux6.png"
             ></Image>
           </div>
-
-    
-
-       
-       
         </div>
       </div>
 
-    
-
-{/* Design  */}
+      {/* Design */}
       <div className="DesignDivWeb">
-         <div className="DesignDivWeb2">
+        <div className="DesignDivWeb2">
           <h1 className="DesignH">Designing with emotional intelligence</h1>
-          <p className="DesignPa">Is like crafting a warm embrace, welcoming visitors into a truly immersive experience. Our tailored solutions prioritize adaptability, accessibility, and seamless performance across all devices, ensuring every user feels valued. Ready to enrich your online presence? Reach out for a call back today, and let's create something truly exceptional together.</p>
-         </div>
-         <div>
-         <Image
-         className="UIUXDivImg2"
-                height={717}
-                width={1100}
-                alt=""
-                src="/WebImg.png"
-              ></Image> 
-          </div> 
+          <p className="DesignPa">Is like crafting a warm embrace, welcoming visitors into a truly immersive experience. Our tailored solutions prioritize adaptability, accessibility, and seamless performance across all devices, ensuring every user feels valued. Ready to enrich your online presence? Reach out for a call back today, and let&apos;s create something truly exceptional together.</p>
+        </div>
+        <div>
+          <Image
+            className="UIUXDivImg2"
+            height={717}
+            width={1100}
+            alt=""
+            src="/WebImg.png"
+          ></Image>
+        </div>
       </div>
       {/* explore */}
 
@@ -162,8 +146,6 @@ const UiUx = () => {
         </h1>
         <button className="ExploreBtn">Contact Us</button>
       </div>
-
-
     </div>
   );
 };
