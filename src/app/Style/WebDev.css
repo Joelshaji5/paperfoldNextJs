@@ -151,9 +151,6 @@ color: #FFFFFF;
     overflow: hidden;
 }
 
-.revdivWeb{
-    flex-direction: column-reverse !important;
-}
 
 
 
@@ -348,4 +345,9 @@ margin-left: 21%;
         overflow: hidden;
     }
 
+
+    
+.revdivWeb{
+    flex-direction: column-reverse !important;
+}
 }
