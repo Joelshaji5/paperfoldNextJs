@@ -38,7 +38,7 @@ margin: auto;
 text-align: center;  
 }
 
-.PorfolioPcImgDiv > img{
+/* .PorfolioPcImgDiv > img{
 
     height: 50vh;
     object-fit: cover;
@@ -46,7 +46,7 @@ text-align: center;
     border-radius: 20px;
     gap: 10%;
 
-}
+} */
 
 
 .CardTitle{
@@ -225,7 +225,8 @@ margin-top: 50px;
 
 
 .PortfolioImage{
-    height: 80vh;
+    height: 500px;
+    width: 500px;
 }
 
 .CardSubHeading{

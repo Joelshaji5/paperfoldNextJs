@@ -141,7 +141,7 @@ color: #FFFFFF;
   }
 
   .DesignDivWebnew{
-    background-image: url("/DevBfMb.png");
+    background-image: url("/DevBack.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -149,6 +149,10 @@ color: #FFFFFF;
     align-items: center;
     padding-bottom: 5% !important;
     overflow: hidden;
+}
+
+.revdivWeb{
+    flex-direction: column-reverse !important;
 }
 
 
@@ -310,13 +314,21 @@ margin-left: 21%;
 
 
     .DesignDivWebnew{
+        background-image: url("/DevBfMb.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5% !important;
+        overflow: hidden;
         flex-direction: column;
     }
 
     .WebDivImg2Dev{
-        margin-top: 10px;
+        margin-top: 50px;
         margin: auto;
-
+        width: 80%;
     }
     
     .WebDivImg2Dev{
