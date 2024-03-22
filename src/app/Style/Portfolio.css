@@ -50,6 +50,7 @@ text-align: center;
 
 .PorfolioPcImgDiv{
     gap: 100px;
+    display: flex;
 }
 
 

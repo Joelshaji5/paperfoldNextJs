@@ -23,7 +23,7 @@ price: 100,
 },
 {
     id: 3,
-    name: "Product 1",
+    name: "Phool",
     brand: "Brand Name",
     url: "/Port3F.png",
     price: 100,
@@ -37,7 +37,7 @@ price: 100,
     },
     {
         id: 5,
-        name: "Product Number 2",
+        name: "Smilepad",
         brand: "Brand Name",
         url: "/Port5F.png",
         price: 100,
@@ -132,7 +132,7 @@ id={"img" + product.id}
 src={product.url}
 alt={product.name}
 title={product.name} 
-className="WorkImg"
+className="WorkImg pl-7 pr-7"
 />
 
 </span>
