@@ -266,11 +266,16 @@ const PortfolioCarousel = () => {
         </div>
 
         <div>
+        <div className="ServiceImgBg">            </div>
 
-        {/* <img src={imageData.imageSrcInfo} alt="scoobies" /> */}
+        <img src={infoImg} alt="scoobies" className="Service1Img" />
             <p className="PortfolioDescription">{description}</p>
             <p className="PortfolioDescription2">{technologies}</p>
-            {/* <img src={imageData.imageSrcInfo2} alt="Image" /> */}
+           
+            <div className="ServiceImgBg">            </div>
+
+            <img src={infoImg2} alt="Image" className="Service2Img" />
+
 
             <h1 className="Outcome">Outcome</h1>
             <p className="OutcomeP">{outcome}</p>

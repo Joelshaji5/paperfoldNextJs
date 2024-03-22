@@ -197,6 +197,27 @@ line-height: normal;
 letter-spacing: -1.8px;
 }
 
+.Service1Img{
+    height: 500px;
+    z-index: 10;
+    margin-top: -200px;
+}
+
+.Service2Img{
+    width: 500px;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.ServiceImgBg{
+        background-color: red;
+        height: 200px;
+        position: relative;
+        z-index: -1;
+        top: 200px;
+}
+
 @media only screen and (max-width: 780px) {
 
 
