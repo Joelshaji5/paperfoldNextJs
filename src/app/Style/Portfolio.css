@@ -48,6 +48,10 @@ text-align: center;
 
 } */
 
+.PorfolioPcImgDiv{
+    gap: 100px;
+}
+
 
 .CardTitle{
     color: #000;
