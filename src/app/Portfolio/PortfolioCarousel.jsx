@@ -206,7 +206,7 @@ const PortfolioCarousel = () => {
           onClick={(event) => handleImageClick(imageData, event, index)}
         >
           <img
-            className="PortfolioImage"
+            className="PortfolioImagenew mt-28"
             src={imageData.imageSrc}
             alt={`PortfolioMbImage ${index + 1}`}
           />

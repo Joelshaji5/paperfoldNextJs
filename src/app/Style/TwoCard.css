@@ -13,8 +13,11 @@ margin-top: -180px;
 }
 
 .WorkImg{
-  height: 550px;
-  width: 629px ;
+  height: 500px;
+  width: 500px ;
+  border-radius: 20px !important  ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   
   #wrapper {
