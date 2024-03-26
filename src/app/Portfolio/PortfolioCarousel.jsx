@@ -15,7 +15,7 @@ const PortfolioCarousel = () => {
   const [description, setDescription] = useState(DataPortfolio[0].description);
   const [subHeading, setSubHeading] = useState(DataPortfolio[0].subName);
   const [titleCard, setTitleCard] = useState(DataPortfolio[0].name);
-  const [typeCard, setTypeCard] = useState([]);
+  const [typeCard, setTypeCard] = useState(DataPortfolio[0].businessType);
   const [DaysCard, setDaysCard] = useState(DataPortfolio[0].duration);
   const [sector, setSector] = useState(DataPortfolio[0].sector);
   const [services, setServices] = useState(DataPortfolio[0].services);
