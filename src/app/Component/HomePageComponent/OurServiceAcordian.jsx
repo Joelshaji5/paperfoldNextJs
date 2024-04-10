@@ -3,7 +3,7 @@ import servicesData from "../Constent/services.json"; // Import JSON data
 import "../../Style/OurServiceAcordian.css";
 
 const OurServiceAccordion = () => {
-  const [active, setActive] = useState(3);
+  const [active, setActive] = useState(0);
 
   const nextSlide = () => {
     if (active < servicesData.length - 1) {
@@ -39,7 +39,7 @@ const OurServiceAccordion = () => {
               >
               <h3 className="cardCloseService">{service.name}</h3>
               <div className="inner section-content">
-                <div className="bio gap-5">
+                <div className="bio gap-3">
                   <h2 className="AccordianH2">{service.name}</h2>
                   <p className="AccordianP">{service.description}</p>
                 </div>

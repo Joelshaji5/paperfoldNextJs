@@ -15,7 +15,7 @@ function Testimonial() {
           <div>
             <img
               className='logoTestimonial'
-              src='/dont-trust1.png'
+              src='/Testimonial1.png'
               onMouseEnter={() => setShowData(1)}
             />
             <div className={showData === 1 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
@@ -29,7 +29,7 @@ function Testimonial() {
           <div>
             <img
               className='logoTestimonial'
-              src='/dont-trust2.png'
+              src='/Testimonial2.png'
               onMouseEnter={() => setShowData(2)}
             />
             <div className={showData === 2 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
@@ -43,7 +43,7 @@ function Testimonial() {
           <div>
             <img
               className='logoTestimonial'
-              src='/dont-trust3.png'
+              src='/Testimonial3.png'
               onMouseEnter={() => setShowData(3)}
             />
             <div className={showData === 3 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>
@@ -57,7 +57,7 @@ function Testimonial() {
           <div>
             <img
               className='logoTestimonial'
-              src='/dont-trust4.png'
+              src='/Testimonial4.png'
               onMouseEnter={() => setShowData(4)}
             />
             <div className={showData === 4 ? 'activeTestimonial activeTestimonialfade' : 'nonetest'}>

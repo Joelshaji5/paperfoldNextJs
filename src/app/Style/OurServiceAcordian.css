@@ -155,7 +155,7 @@ padding-left: 8px;
   }
 
   &.activeService {
-    flex: 6;
+    flex: 7;
     cursor: default;
 
     /* &:before {
