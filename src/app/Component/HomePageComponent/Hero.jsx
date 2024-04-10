@@ -27,9 +27,9 @@ function Hero() {
         <Image
          className="hero-img"
                 height={500}
-                width={285}
+                width={500}
                 alt="Paperfold Logo"
-                src="/PaperfoldDarkLogo.png"
+                src="/Paperfold_Profile.png"
               ></Image>        
       </div>
     </div>  )
